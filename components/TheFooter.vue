@@ -16,7 +16,7 @@
         <h3 class="section-heading">Newsletter</h3>
         <div class="newsletter-form">
           <input type="text" placeholder="Enter email" />
-          <button class="subscribe-btn">Subscribe</button>
+          <button class="btn primary-btn subscribe-btn">Subscribe</button>
         </div>
       </div>
     </div>

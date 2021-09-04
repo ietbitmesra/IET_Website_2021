@@ -1,3 +1,26 @@
 body {
     margin: 0;
 }
+
+.btn {
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.primary-btn {
+    background-color: #8C0087;
+    color: #FFFFFF;
+    padding: 15px 2rem;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    border: 2px solid #8C0087;
+    color: #8C0087;
+    padding: 13px 2rem;
+}
