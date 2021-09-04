@@ -22,45 +22,14 @@
       </div>
       <div class="socials-section">
         <h3 class="section-heading">Social Links</h3>
-        <p>
+        <p v-for="social in socialLinks" :key="social.link">
           <a
-            class="email-address"
-            href="https://www.instagram.com/ietbitmesra"
+            class="social-links"
+            :href="social.link"
             target="_blank"
             rel="noopener noreferrer"
+            >{{ social.platform }}</a
           >
-            Instagram
-          </a>
-        </p>
-        <p>
-          <a
-            class="email-address"
-            href="https://www.facebook.com/ietbitmesra"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Facebook
-          </a>
-        </p>
-        <p>
-          <a
-            class="email-address"
-            href="https://www.linkedin.com/company/iet-on-campus-bit-mesra"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Linkedin
-          </a>
-        </p>
-        <p>
-          <a
-            class="email-address"
-            href="https://github.com/ietbitmesra"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Github
-          </a>
         </p>
       </div>
     </div>
@@ -71,7 +40,30 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      socialLinks: [
+        {
+          link: "https://www.instagram.com/ietbitmesra",
+          platform: "Instagram",
+        },
+        {
+          link: "https://www.facebook.com/ietbitmesra",
+          platform: "Facebook",
+        },
+        {
+          link: "https://www.linkedin.com/company/iet-on-campus-bit-mesra",
+          platform: "Linkedin",
+        },
+        {
+          link: "https://github.com/ietbitmesra",
+          platform: "Github",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped>
@@ -93,5 +85,16 @@ export default {};
 }
 .socials-section {
   border-top: 1px solid #ffffff;
+}
+.social-links {
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  opacity: 0.6;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.social-links:hover {
+  opacity: 1;
 }
 </style>
