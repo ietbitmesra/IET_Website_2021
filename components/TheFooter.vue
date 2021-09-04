@@ -11,13 +11,57 @@
       </div>
       <div class="site-map">
         <h3 class="section-heading">Sitemap</h3>
+        <p class="nav-link">Home</p>
+        <p class="nav-link">About</p>
+        <p class="nav-link">Workshops</p>
+        <p class="nav-link">Events</p>
+        <p class="nav-link">Hack A Bit</p>
+        <p class="nav-link">Gallery</p>
+        <p class="nav-link">Team</p>
+        <p class="nav-link">Contact</p>
       </div>
-      <div class="newsletter">
-        <h3 class="section-heading">Newsletter</h3>
-        <div class="newsletter-form">
-          <input type="text" placeholder="Enter email" />
-          <button class="btn primary-btn subscribe-btn">Subscribe</button>
-        </div>
+      <div class="socials-section">
+        <h3 class="section-heading">Social Links</h3>
+        <p>
+          <a
+            class="email-address"
+            href="https://www.instagram.com/ietbitmesra"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+        </p>
+        <p>
+          <a
+            class="email-address"
+            href="https://www.facebook.com/ietbitmesra"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Facebook
+          </a>
+        </p>
+        <p>
+          <a
+            class="email-address"
+            href="https://www.linkedin.com/company/iet-on-campus-bit-mesra"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linkedin
+          </a>
+        </p>
+        <p>
+          <a
+            class="email-address"
+            href="https://github.com/ietbitmesra"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+        </p>
       </div>
     </div>
     <div class="developed-by-section">
@@ -47,7 +91,7 @@ export default {};
 .site-map {
   border-top: 1px solid #ffffff;
 }
-.newsletter {
+.socials-section {
   border-top: 1px solid #ffffff;
 }
 </style>
