@@ -14,6 +14,10 @@
       </div>
       <div class="newsletter">
         <h3 class="section-heading">Newsletter</h3>
+        <div class="newsletter-form">
+          <input type="text" placeholder="Enter email" />
+          <button class="subscribe-btn">Subscribe</button>
+        </div>
       </div>
     </div>
     <div class="developed-by-section">
