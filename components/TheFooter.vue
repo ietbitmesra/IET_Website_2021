@@ -3,6 +3,11 @@
     <div class="footer-section">
       <div class="contact-details">
         <h3 class="section-heading">IET, BIT Mesra</h3>
+        <p>
+          <a class="email-address" href="mailto:iet@bitmesra.ac.in">
+            iet@bitmesra.ac.in
+          </a>
+        </p>
       </div>
       <div class="site-map">
         <h3 class="section-heading">Sitemap</h3>
@@ -30,6 +35,10 @@ export default {};
 }
 .contact-details {
   border-top: 1px solid #ffffff;
+}
+.email-address {
+  color: #ffffff;
+  text-decoration: none;
 }
 .site-map {
   border-top: 1px solid #ffffff;
