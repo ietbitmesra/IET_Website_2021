@@ -1,7 +1,16 @@
 <template>
-  <h1>IET Website 2021</h1>
+  <div>
+    <h1>IET Website 2021</h1>
+    <ContactSection />
+  </div>
 </template>
 
 <script>
-export default {};
+import ContactSection from "~/components/ContactSection.vue";
+
+export default {
+  components: {
+    ContactSection,
+  },
+};
 </script>
