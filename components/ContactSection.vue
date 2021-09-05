@@ -111,9 +111,12 @@
       </div>
     </div>
     <div class="message-div">
-      <input type="text" placeholder="Name" />
-      <input type="text" placeholder="Email" />
-      <input type="text" placeholder="Message" />
+      <p class="label">Name</p>
+      <input class="input-field" type="text" />
+      <p class="label">Email</p>
+      <input class="input-field" type="text" />
+      <p class="label">Message</p>
+      <input class="input-field" type="text" />
       <button class="btn primary-btn">Submit</button>
     </div>
   </div>
@@ -157,6 +160,18 @@ export default {};
 .message-div {
   display: flex;
   flex-direction: column;
+}
+.label {
+  margin: 0;
+}
+.input-field {
+  background-color: #efefef;
+  border: none;
+  border-radius: 2px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1rem;
 }
 @media only screen and (max-width: 1200px) {
   .contact-section {
