@@ -70,21 +70,35 @@ export default {
 .the-footer {
   background-color: #121212;
 }
+.footer-section {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-areas: "contact sitemap socials socials";
+  gap: 3rem;
+  padding: 4rem 0;
+}
 .section-heading {
   color: #ffffff;
 }
 .contact-details {
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  grid-area: contact;
 }
 .email-address {
   color: #ffffff;
   text-decoration: none;
 }
 .site-map {
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  grid-area: sitemap;
+}
+.nav-link {
+  color: #ffffff;
 }
 .socials-section {
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  grid-area: socials;
 }
 .social-links {
   color: #ffffff;
@@ -96,5 +110,32 @@ export default {
 }
 .social-links:hover {
   opacity: 1;
+}
+.developed-by-section {
+  color: #ffffff;
+  margin: auto;
+  padding-bottom: 1rem;
+  max-width: 1140px;
+  text-align: right;
+}
+@media only screen and (max-width: 1200px) {
+  .footer-section {
+    gap: 1.5rem;
+    padding: 3rem 1rem;
+  }
+  .developed-by-section {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .footer-section {
+    grid-template-areas:
+      "contact"
+      "sitemap"
+      "socials";
+  }
+  .developed-by-section {
+    text-align: center;
+  }
 }
 </style>
