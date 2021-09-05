@@ -3,33 +3,31 @@
     <div class="footer-section">
       <div class="contact-details">
         <h3 class="section-heading">IET, BIT Mesra</h3>
-        <p>
-          <a class="email-address" href="mailto:iet@bitmesra.ac.in">
-            iet@bitmesra.ac.in
-          </a>
+        <p class="link">
+          <a href="mailto:iet@bitmesra.ac.in"> iet@bitmesra.ac.in </a>
         </p>
       </div>
       <div class="site-map">
         <h3 class="section-heading">Sitemap</h3>
-        <p class="nav-link">Home</p>
-        <p class="nav-link">About</p>
-        <p class="nav-link">Workshops</p>
-        <p class="nav-link">Events</p>
-        <p class="nav-link">Hack A Bit</p>
-        <p class="nav-link">Gallery</p>
-        <p class="nav-link">Team</p>
-        <p class="nav-link">Contact</p>
+        <p class="link">Home</p>
+        <p class="link">About</p>
+        <p class="link">Workshops</p>
+        <p class="link">Events</p>
+        <p class="link">Hack A Bit</p>
+        <p class="link">Gallery</p>
+        <p class="link">Team</p>
+        <p class="link">Contact</p>
       </div>
       <div class="socials-section">
         <h3 class="section-heading">Social Links</h3>
-        <p v-for="social in socialLinks" :key="social.link">
-          <a
-            class="social-links"
-            :href="social.link"
-            target="_blank"
-            rel="noopener noreferrer"
-            >{{ social.platform }}</a
-          >
+        <p
+          v-for="social in socialLinks"
+          :key="social.link"
+          class="link social-links"
+        >
+          <a :href="social.link" target="_blank" rel="noopener noreferrer">{{
+            social.platform
+          }}</a>
         </p>
       </div>
     </div>
@@ -80,36 +78,34 @@ export default {
 }
 .section-heading {
   color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 1.5rem 0;
+}
+.link {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.link:hover {
+  opacity: 1;
 }
 .contact-details {
   border-top: 1px solid rgba(255, 255, 255, 0.7);
   grid-area: contact;
 }
-.email-address {
-  color: #ffffff;
-  text-decoration: none;
-}
 .site-map {
   border-top: 1px solid rgba(255, 255, 255, 0.7);
   grid-area: sitemap;
-}
-.nav-link {
-  color: #ffffff;
 }
 .socials-section {
   border-top: 1px solid rgba(255, 255, 255, 0.7);
   grid-area: socials;
 }
 .social-links {
-  color: #ffffff;
-  font-size: 0.85rem;
-  font-weight: 600;
-  opacity: 0.6;
-  text-decoration: none;
   text-transform: uppercase;
-}
-.social-links:hover {
-  opacity: 1;
 }
 .developed-by-section {
   color: #ffffff;
