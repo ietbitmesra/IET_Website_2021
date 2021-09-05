@@ -32,7 +32,14 @@
       </div>
     </div>
     <div class="developed-by-section">
-      <p>Designed and developed by</p>
+      <p class="developed-by">
+        <a
+          href="https://github.com/jash139"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Designed and developed by<br />Ayush Acharya (IET Webmaster)</a
+        >
+      </p>
     </div>
   </footer>
 </template>
@@ -72,7 +79,7 @@ export default {
   max-width: 1140px;
   margin: auto;
   display: grid;
-  grid-template-areas: "contact sitemap socials socials";
+  grid-template-areas: "contact sitemap socials socials socials";
   gap: 3rem;
   padding: 4rem 0;
 }
@@ -87,6 +94,7 @@ export default {
   cursor: pointer;
   font-size: 0.8rem;
   font-weight: 400;
+  margin: 0.6rem 0;
   opacity: 0.7;
 }
 .link:hover {
@@ -108,11 +116,21 @@ export default {
   text-transform: uppercase;
 }
 .developed-by-section {
-  color: #ffffff;
   margin: auto;
   padding-bottom: 1rem;
   max-width: 1140px;
   text-align: right;
+}
+.developed-by {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 0.6rem 0;
+  opacity: 0.7;
+}
+.developed-by:hover {
+  opacity: 1;
 }
 @media only screen and (max-width: 1200px) {
   .footer-section {
