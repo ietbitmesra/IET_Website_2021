@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>IET Website 2021</h1>
-    <Gallery />
+    <Gallery id="event-gallery" />
     <ContactSection />
   </div>
 </template>
