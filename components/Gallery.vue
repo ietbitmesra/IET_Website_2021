@@ -119,6 +119,10 @@ export default {
 
 <style scoped>
 .gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -129,7 +133,7 @@ export default {
 .carousel {
   display: flex;
   overflow-x: auto;
-  margin: 3rem 0;
+  margin: 5rem 0 3rem;
   max-width: 100%;
   scroll-behavior: smooth;
 }
