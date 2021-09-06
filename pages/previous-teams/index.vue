@@ -46,6 +46,6 @@ export default {
   font-weight: 500;
 }
 .team-members {
-  margin: 3rem;
+  margin: 3rem 0;
 }
 </style>
