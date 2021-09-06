@@ -1,6 +1,10 @@
 <template>
   <div class="team">
     <h1 class="primary-heading">Team</h1>
+    <TeamMemberCard />
+    <TeamMemberCard />
+    <TeamMemberCard />
+    <TeamMemberCard />
   </div>
 </template>
 
@@ -8,5 +12,5 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 </style>
