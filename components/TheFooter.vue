@@ -59,6 +59,7 @@ export default {
 <style scoped>
 .the-footer {
   background-color: #121212;
+  margin-top: 4rem;
 }
 .footer-section {
   max-width: 1200px;

@@ -122,7 +122,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 90vh;
+  min-height: 100vh;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
