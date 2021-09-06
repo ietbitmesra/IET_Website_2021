@@ -76,7 +76,7 @@ export default {
   background-color: #121212;
 }
 .footer-section {
-  max-width: 1140px;
+  max-width: 1200px;
   margin: auto;
   display: grid;
   grid-template-areas: "contact sitemap socials socials socials";
@@ -118,7 +118,7 @@ export default {
 .developed-by-section {
   margin: auto;
   padding-bottom: 1rem;
-  max-width: 1140px;
+  max-width: 1200px;
   text-align: right;
 }
 .developed-by {
@@ -132,7 +132,7 @@ export default {
 .developed-by:hover {
   opacity: 1;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1220px) {
   .footer-section {
     gap: 1.5rem;
     padding: 3rem 1rem;

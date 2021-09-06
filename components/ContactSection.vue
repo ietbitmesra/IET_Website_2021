@@ -132,7 +132,7 @@ export default {};
   gap: 1rem;
   grid-template-columns: auto auto;
   margin: auto;
-  max-width: 1140px;
+  max-width: 1200px;
   padding: 4rem 0;
 }
 .secondary-heading {
@@ -181,7 +181,7 @@ export default {};
   padding: 1rem;
   resize: none;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1220px) {
   .contact-section {
     gap: 1.5rem;
     padding: 3rem 1rem;

@@ -40,12 +40,12 @@ export default {
 <style scoped>
 .team {
   margin: auto;
-  max-width: 1140px;
+  max-width: 1200px;
   text-align: center;
 }
 .team-members {
   margin: 2rem 0;
-  max-height: 75vh;
+  max-height: 80vh;
   overflow-y: auto;
 }
 .team-members::-webkit-scrollbar {

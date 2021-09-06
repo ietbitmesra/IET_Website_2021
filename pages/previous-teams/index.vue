@@ -37,7 +37,7 @@ export default {
 <style scoped>
 .previous-teams {
   margin: auto;
-  max-width: 1140px;
+  max-width: 1200px;
   padding: 3rem 0;
   text-align: center;
 }

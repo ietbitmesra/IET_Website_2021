@@ -9,8 +9,8 @@
       <div class="socials-overlay">
         <div class="icon icon1">
           <svg
-            width="18"
-            height="16"
+            width="16"
+            height="15"
             viewBox="0 0 18 16"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -31,8 +31,8 @@
         </div>
         <div class="icon icon2">
           <svg
-            width="8"
-            height="14"
+            width="7"
+            height="13"
             viewBox="0 0 8 14"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -45,8 +45,8 @@
         </div>
         <div class="icon icon3">
           <svg
-            width="16"
-            height="14"
+            width="14"
+            height="13"
             viewBox="0 0 16 14"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -63,8 +63,8 @@
         </div>
         <div class="icon icon4">
           <svg
-            width="16"
-            height="17"
+            width="14"
+            height="15"
             viewBox="0 0 16 17"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +89,7 @@ export default {};
 <style scoped>
 .team-member-card {
   display: inline-block;
-  margin: 1rem;
+  margin: 1.2rem;
   text-align: center;
 }
 .avatar-circle {
@@ -99,15 +99,15 @@ export default {};
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 160px;
-  width: 160px;
+  height: 150px;
+  width: 150px;
   position: relative;
 }
 .avatar {
   border-radius: 100%;
   object-fit: cover;
-  height: 155px;
-  width: 155px;
+  height: 145px;
+  width: 145px;
 }
 .member-name {
   font-size: 1.1rem;
@@ -142,29 +142,34 @@ export default {};
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 30px;
+  height: 28px;
   position: absolute;
   transition: 0.3s ease;
   white-space: nowrap;
-  width: 30px;
+  width: 28px;
 }
 .icon:hover {
   transform: scale(1.1, 1.1);
 }
 .icon1 {
   top: 14px;
-  right: 28%;
+  right: 27%;
 }
 .icon2 {
-  top: 44px;
+  top: 42px;
   right: 10%;
 }
 .icon3 {
-  bottom: 44px;
+  bottom: 42px;
   right: 10%;
 }
 .icon4 {
   bottom: 14px;
-  right: 28%;
+  right: 27%;
+}
+@media only screen and (max-width: 720px) {
+  .team-member-card {
+    margin: 1rem 0.5rem;
+  }
 }
 </style>
