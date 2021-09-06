@@ -2,10 +2,10 @@
   <div class="contact-section">
     <div class="socials">
       <h1 class="primary-heading">Contact Us</h1>
-      <p class="">Feel free to reach out to us.</p>
+      <p class="secondary-heading">Feel free to reach out to us.</p>
       <div class="contact-us">
         <svg
-          width="15"
+          width="13"
           height="20"
           viewBox="0 0 17 23"
           fill="none"
@@ -20,7 +20,7 @@
       </div>
       <div class="contact-us">
         <svg
-          width="18"
+          width="16"
           height="16"
           viewBox="0 0 21 16"
           fill="none"
@@ -116,7 +116,7 @@
       <p class="label">Email</p>
       <input class="input-field" type="text" />
       <p class="label">Message</p>
-      <input class="input-field" type="text" />
+      <textarea rows="5" class="input-field" type="text" />
       <button class="btn primary-btn">Submit</button>
     </div>
   </div>
@@ -135,15 +135,21 @@ export default {};
   max-width: 1140px;
   padding: 4rem 0;
 }
+.secondary-heading {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
 .contact-us {
   display: flex;
   align-items: center;
 }
 .contact-text {
-  margin: 0.5rem 0 0.5rem 1.5rem;
+  margin: 0.3rem 0 0.3rem 1rem;
 }
 .contact-btns {
   display: flex;
+  padding: 2rem 0;
 }
 .contact-btn {
   background-color: #eaeaea;
@@ -154,12 +160,13 @@ export default {};
   align-items: center;
   justify-content: center;
   height: 35px;
-  margin: 1rem 1rem 0 0;
+  margin-right: 0.5rem;
   width: 35px;
 }
 .message-div {
   display: flex;
   flex-direction: column;
+  margin-left: 2rem;
 }
 .label {
   margin: 0;
@@ -172,16 +179,23 @@ export default {};
   margin-bottom: 1rem;
   outline: none;
   padding: 1rem;
+  resize: none;
 }
 @media only screen and (max-width: 1200px) {
   .contact-section {
     gap: 1.5rem;
     padding: 3rem 1rem;
   }
+  .message-div {
+    margin-left: 0;
+  }
 }
 @media only screen and (max-width: 720px) {
   .contact-section {
     grid-template-columns: auto;
+  }
+  .message-div {
+    margin: 2rem 0;
   }
 }
 </style>

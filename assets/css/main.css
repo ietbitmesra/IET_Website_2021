@@ -38,3 +38,9 @@ a {
     color: #8C0087;
     padding: 13px 2rem;
 }
+
+@media only screen and (max-width: 720px) {
+    .primary-heading {
+        font-size: 2.8rem;
+    }
+  }
