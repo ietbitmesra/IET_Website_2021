@@ -32,9 +32,39 @@
         src="https://images.unsplash.com/photo-1625062798671-a2b45295b6e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
         alt="event-2"
       />
+      <img
+        class="image"
+        src="https://images.unsplash.com/photo-1558788353-f76d92427f16?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=378&q=80"
+        alt="event"
+      />
+      <img
+        class="image"
+        src="https://images.unsplash.com/photo-1625062798671-a2b45295b6e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        alt="event-2"
+      />
+      <img
+        class="image"
+        src="https://images.unsplash.com/photo-1511578314322-379afb476865?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+        alt="event"
+      />
+      <img
+        class="image"
+        src="https://images.unsplash.com/photo-1625062798671-a2b45295b6e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        alt="event-2"
+      />
+      <img
+        class="image"
+        src="https://images.unsplash.com/photo-1511578314322-379afb476865?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+        alt="event"
+      />
+      <img
+        class="image"
+        src="https://images.unsplash.com/photo-1625062798671-a2b45295b6e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        alt="event-2"
+      />
     </div>
     <div class="scroll-btns">
-      <div class="scroll-btn">
+      <div class="scroll-btn" @click="handleScroll('left')">
         <svg
           width="35"
           height="16"
@@ -48,7 +78,7 @@
           />
         </svg>
       </div>
-      <div class="scroll-btn">
+      <div class="scroll-btn" @click="handleScroll('right')">
         <svg
           width="35"
           height="16"
@@ -78,9 +108,9 @@ export default {
   methods: {
     handleScroll(direction) {
       if (direction === "left") {
-        document.getElementById(this.id).scrollLeft -= 300;
+        document.getElementById(this.id).scrollLeft -= 400;
       } else if (direction === "right") {
-        document.getElementById(this.id).scrollLeft += 300;
+        document.getElementById(this.id).scrollLeft += 400;
       }
     },
   },
@@ -89,6 +119,11 @@ export default {
 
 <style scoped>
 .gallery {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
   text-align: center;
 }
 .carousel {
@@ -96,6 +131,10 @@ export default {
   overflow-x: auto;
   margin: 3rem 0;
   max-width: 100%;
+  scroll-behavior: smooth;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
 }
 .image {
   object-fit: cover;
@@ -118,6 +157,10 @@ export default {
   justify-content: center;
   height: 45px;
   margin: 0 0.75rem;
+  transition: all 0.3s ease;
   width: 45px;
+}
+.scroll-btn:hover {
+  transform: scale(1.1, 1.1);
 }
 </style>
