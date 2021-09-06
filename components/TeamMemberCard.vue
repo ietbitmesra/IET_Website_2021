@@ -111,7 +111,7 @@ export default {};
 }
 .member-name {
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   margin: 1rem 0 0;
 }
 .position {
