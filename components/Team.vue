@@ -24,6 +24,9 @@
       <TeamMemberCard />
       <TeamMemberCard />
     </div>
+    <NuxtLink to="/previous-teams">
+      <button class="btn secondary-btn">Previous Teams</button>
+    </NuxtLink>
   </div>
 </template>
 
@@ -45,7 +48,7 @@ export default {
 }
 .team-members {
   margin: 2rem 0;
-  max-height: 80vh;
+  max-height: 70vh;
   overflow-y: auto;
 }
 .team-members::-webkit-scrollbar {
