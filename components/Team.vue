@@ -1,6 +1,12 @@
 <template>
   <div class="team">
     <h1 class="primary-heading">Team</h1>
+    <h3 class="sub-heading">Governing Faculty</h3>
+    <div class="faculty-members">
+      <TeamMemberCard />
+      <TeamMemberCard />
+    </div>
+    <h3 class="sub-heading">Executive Members</h3>
     <div class="team-members">
       <TeamMemberCard />
       <TeamMemberCard />
@@ -46,6 +52,13 @@ export default {
   max-width: 1200px;
   text-align: center;
 }
+.sub-heading {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.faculty-members {
+  margin-bottom: 4rem;
+}
 .team-members {
   margin: 2rem 0;
   max-height: 70vh;
@@ -55,7 +68,7 @@ export default {
   width: 1.5rem;
 }
 .team-members::-webkit-scrollbar-thumb {
-  background-color: #eaeaea;
+  background-color: #d9d9d9;
   border-radius: 1rem;
   border: 9px solid transparent;
   background-clip: content-box;
