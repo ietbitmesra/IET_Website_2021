@@ -80,6 +80,7 @@ export default {};
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 4px;
+  margin: 4rem 0;
 }
 .column {
   -ms-flex: 25%;

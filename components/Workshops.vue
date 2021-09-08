@@ -80,6 +80,9 @@ export default {};
   }
 }
 @media only screen and (max-width: 1000px) {
+  .workshop-heading {
+    text-align: center;
+  }
   .workshops {
     flex-direction: column;
   }
