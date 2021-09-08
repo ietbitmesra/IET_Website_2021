@@ -13,7 +13,6 @@
         <p class="link">About</p>
         <p class="link">Workshops</p>
         <p class="link">Events</p>
-        <p class="link">Hack A Bit</p>
         <p class="link">Gallery</p>
         <p class="link">Team</p>
         <p class="link">Contact</p>
