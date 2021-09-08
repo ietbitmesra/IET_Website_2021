@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>IET Website 2021</h1>
     <Team />
     <Workshops />
     <Gallery id="event-gallery" />
