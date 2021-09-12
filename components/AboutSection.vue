@@ -1,6 +1,7 @@
 <template>
   <div class="about-section">
     <h1 class="primary-heading">About Us</h1>
+    <WhatWeDo />
   </div>
 </template>
 
