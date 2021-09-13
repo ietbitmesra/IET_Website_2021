@@ -50,6 +50,7 @@ export default {};
   min-height: 100vh;
 }
 .sub-heading {
+  color: #8c0087;
   font-size: 2rem;
   font-weight: 500;
   margin: 1rem 0;
