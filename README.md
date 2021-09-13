@@ -1,6 +1,8 @@
 # IET Website 2021
 IET Official Website 2021.
 
+* Website: [https://iet-bitmesra.netlify.app]
+
 ## Build Setup
 
 ```bash
