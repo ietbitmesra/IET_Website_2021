@@ -14,14 +14,15 @@
         <p class="number-indicator">01</p>
         <p class="feature">
           We provide active contributions to the annual techno-cultural fests of
-          our institute, <b>“Pantheon”</b> and <b>“Bitotsav”</b>.
+          our institute, <span class="highlighted-text">“Pantheon”</span> and
+          <span class="highlighted-text">“Bitotsav”</span>.
         </p>
       </div>
       <div class="feature-card">
         <p class="number-indicator">02</p>
         <p class="feature">
           Since 2018, we have been an organizer to East India’s largest student
-          hackathon, <b>“Hack-A-BIT”</b>.
+          hackathon, <span class="highlighted-text">“Hack-A-BIT”</span>.
         </p>
       </div>
       <div class="feature-card">
@@ -84,10 +85,17 @@ export default {};
   width: 250px;
   transition: all 0.3s ease;
 }
+.highlighted-text {
+  color: #8c0087;
+  font-weight: 700;
+}
 .feature-card:hover {
   color: #ffffff;
   background-color: #8c0087;
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+.feature-card:hover .highlighted-text {
+  color: #ffffff;
 }
 @media only screen and (max-width: 1220px) {
   .what-we-do {
