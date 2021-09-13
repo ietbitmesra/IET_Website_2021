@@ -36,8 +36,11 @@
           href="https://github.com/jash139"
           target="_blank"
           rel="noopener noreferrer"
-          >Designed and developed by<br />Ayush Acharya (IET Webmaster)</a
         >
+          Designed by Ayush Acharya (IET Webmaster)
+        </a>
+        <br />
+        Developed by IET Web Team
       </p>
     </div>
   </footer>
