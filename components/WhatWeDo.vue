@@ -74,7 +74,7 @@ export default {};
   border-radius: 3px;
   color: #656565;
   font-size: 0.85rem;
-  font-weight: 400;
+  font-weight: 500;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
