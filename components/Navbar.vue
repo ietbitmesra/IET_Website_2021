@@ -97,11 +97,12 @@ export default {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  transform: translateX(0);
-  transition: transform 0.35s;
+  opacity: 1;
+  transition: opacity 0.4s;
 }
 .ul--hidden {
-  transform: translateX(150%);
+  opacity: 0;
+  pointer-events: none;
 }
 .links {
   display: block;
