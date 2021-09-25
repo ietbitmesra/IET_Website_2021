@@ -150,8 +150,8 @@ export default {
   }
   .menu {
     display: flex;
-    height: 3.6rem;
-    width: 3.6rem;
+    height: 3rem;
+    width: 3rem;
     background: #f2f2f2;
     border-radius: 100vw;
     flex-direction: column;
