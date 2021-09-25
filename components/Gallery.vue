@@ -2,66 +2,9 @@
   <div class="gallery">
     <h1 class="primary-heading">Gallery</h1>
     <div class="carousel" :id="id">
-      <img
-        class="image"
-        src="https://images.unsplash.com/photo-1558788353-f76d92427f16?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=378&q=80"
-        alt="event"
-      />
-      <img
-        class="image"
-        src="https://images.unsplash.com/photo-1625062798671-a2b45295b6e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-        alt="event-2"
-      />
-      <img
-        class="image"
-        src="https://images.unsplash.com/photo-1511578314322-379afb476865?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-        alt="event"
-      />
-      <img
-        class="image"
-        src="https://images.unsplash.com/photo-1625062798671-a2b45295b6e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-        alt="event-2"
-      />
-      <img
-        class="image"
-        src="https://images.unsplash.com/photo-1511578314322-379afb476865?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-        alt="event"
-      />
-      <img
-        class="image"
-        src="https://images.unsplash.com/photo-1625062798671-a2b45295b6e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-        alt="event-2"
-      />
-      <img
-        class="image"
-        src="https://images.unsplash.com/photo-1558788353-f76d92427f16?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=378&q=80"
-        alt="event"
-      />
-      <img
-        class="image"
-        src="https://images.unsplash.com/photo-1625062798671-a2b45295b6e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-        alt="event-2"
-      />
-      <img
-        class="image"
-        src="https://images.unsplash.com/photo-1511578314322-379afb476865?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-        alt="event"
-      />
-      <img
-        class="image"
-        src="https://images.unsplash.com/photo-1625062798671-a2b45295b6e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-        alt="event-2"
-      />
-      <img
-        class="image"
-        src="https://images.unsplash.com/photo-1511578314322-379afb476865?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-        alt="event"
-      />
-      <img
-        class="image"
-        src="https://images.unsplash.com/photo-1625062798671-a2b45295b6e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-        alt="event-2"
-      />
+      <div v-for="(image, imageIndex) in images" :key="image">
+            <img :src="image.path" class="image" :key="imageIndex" alt="image" />
+      </div>
     </div>
     <div class="scroll-btns">
       <div class="scroll-btn" @click="handleScroll('left')">
@@ -114,6 +57,52 @@ export default {
       }
     },
   },
+  data(){
+    return{
+      images:[
+        {path: require("../assets/gallery/galleryimg1.jpg")},
+        {path: require("../assets/gallery/galleryimg1.jpg")},
+        {path: require("../assets/gallery/galleryimg2.jpg")},
+        {path: require("../assets/gallery/galleryimg3.jpg")},
+        {path: require("../assets/gallery/galleryimg4.jpg")},
+        {path: require("../assets/gallery/galleryimg5.jpg")},
+        {path: require("../assets/gallery/galleryimg6.jpg")},
+        {path: require("../assets/gallery/galleryimg7.jpg")},
+        {path: require("../assets/gallery/galleryimg8.jpg")},
+        {path: require("../assets/gallery/galleryimg9.jpg")},
+        {path: require("../assets/gallery/galleryimg10.jpg")},
+        {path: require("../assets/gallery/galleryimg11.jpg")},
+        {path: require("../assets/gallery/galleryimg12.jpg")},
+        {path: require("../assets/gallery/galleryimg13.jpg")},
+        {path: require("../assets/gallery/galleryimg14.jpg")},
+        {path: require("../assets/gallery/galleryimg15.jpg")},
+        {path: require("../assets/gallery/galleryimg16.jpg")},
+        {path: require("../assets/gallery/galleryimg17.jpg")},
+        {path: require("../assets/gallery/galleryimg18.jpg")},
+        {path: require("../assets/gallery/galleryimg19.jpg")},
+        {path: require("../assets/gallery/galleryimg20.jpg")},
+        {path: require("../assets/gallery/galleryimg21.jpeg")},
+        {path: require("../assets/gallery/galleryimg22.jpeg")},
+        {path: require("../assets/gallery/galleryimg23.jpeg")},
+        {path: require("../assets/gallery/galleryimg24.jpeg")},
+        {path: require("../assets/gallery/galleryimg25.jpeg")},
+        {path: require("../assets/gallery/galleryimg26.jpeg")},
+        {path: require("../assets/gallery/galleryimg27.jpeg")},
+        {path: require("../assets/gallery/galleryimg28.jpeg")},
+        {path: require("../assets/gallery/galleryimg29.jpeg")},
+        {path: require("../assets/gallery/galleryimg30.jpeg")},
+        {path: require("../assets/gallery/galleryimg31.jpeg")},
+        {path: require("../assets/gallery/galleryimg32.jpeg")},
+        {path: require("../assets/gallery/galleryimg33.jpeg")},
+        {path: require("../assets/gallery/galleryimg34.jpeg")},
+        {path: require("../assets/gallery/galleryimg35.jpeg")},
+        {path: require("../assets/gallery/galleryimg36.jpeg")},
+        {path: require("../assets/gallery/galleryimg37.jpeg")},
+        {path: require("../assets/gallery/galleryimg38.jpeg")},
+        {path: require("../assets/gallery/galleryimg39.jpeg")}
+      ]
+    }
+  }
 };
 </script>
 
