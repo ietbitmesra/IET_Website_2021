@@ -5,7 +5,7 @@
       <div class="column">
         <img
           class="event-poster"
-          src="https://images.unsplash.com/photo-1531127999375-2c19c97f7819?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmVkJTIwYmxhY2slMjBjaXR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          src="/static/events/blitzkrieg.jpg"
         />
         <img
           class="event-poster"
