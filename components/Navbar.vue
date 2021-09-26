@@ -23,7 +23,7 @@
           />
         </svg>
       </div>
-      <ul class="ul">
+      <ul class="ul ul--hidden">
         <li class="homelink">
           <p datapage="home" class="links">Home</p>
         </li>
@@ -46,12 +46,27 @@
           <p datapage="contact" class="links">Contact</p>
         </li>
       </ul>
+
+      <div class="menu" @click="toggleNav">
+        <div class="menu__line line"></div>
+        <div class="menu__line line"></div>
+        <div class="menu__line menu__cross cross1"></div>
+        <div class="menu__line menu__cross cross2"></div>
+        <div class="menu__line line"></div>
+      </div>
     </nav>
   </header>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    toggleNav() {
+      document.querySelector(".ul").classList.toggle("ul--hidden");
+      document.querySelector(".menu").classList.toggle("menu--open");
+    }
+  }
+};
 </script>
 
 <style scoped>
@@ -82,6 +97,8 @@ export default {};
   list-style-type: none;
   margin: 0;
   padding: 0;
+  opacity: 1;
+  transition: opacity 0.4s;
 }
 .links {
   display: block;
@@ -92,9 +109,64 @@ export default {};
   margin-left: 1.5rem;
   text-decoration: none;
 }
+
+.menu {
+  display: none;
+  position: relative;
+}
+.menu__line {
+  opacity: 1;
+  transition: all 0.35s;
+}
+.menu__cross {
+  position: absolute;
+}
+.menu--open .cross1 {
+  transform: rotate(45deg);
+}
+.menu--open .cross2 {
+  transform: rotate(-45deg);
+}
+.menu--open .line {
+  opacity: 0;
+}
 @media only screen and (max-width: 720px) {
   .ul {
-    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 9vh;
+    right: 10px;
+    background-color: #fbfbfb;
+    width: 12rem;
+    box-shadow: 0 10px 10px #eaeaea;
+  }
+
+  .ul li:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+
+  .ul--hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .menu {
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+    background: #f2f2f2;
+    border-radius: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .menu__line {
+    width: 50%;
+    height: 2px;
+    border-radius: 100vw;
+    background-color: #656565;
+    margin-block: 3px;
   }
 }
 </style>
