@@ -100,10 +100,6 @@ export default {
   opacity: 1;
   transition: opacity 0.4s;
 }
-.ul--hidden {
-  opacity: 0;
-  pointer-events: none;
-}
 .links {
   display: block;
   color: #656565;
@@ -148,6 +144,11 @@ export default {
   .ul li:hover {
     background-color: #f2f2f2;
     cursor: pointer;
+  }
+
+  .ul--hidden {
+    opacity: 0;
+    pointer-events: none;
   }
   .menu {
     display: flex;
