@@ -5,45 +5,32 @@
       <div class="column">
         <img
           class="event-poster"
-          src= "../static/images/events/month_of_code.jpeg"
-
+          src="../static/images/events/month_of_code.jpeg"
         />
         <img
           class="event-poster"
           src="../static/images/events/brainfookers.jpg"
-          />
+        />
         <img
           class="event-poster"
           src="../static/images/events/captureTheFlag.jpg"
         />
       </div>
       <div class="column">
-        <img
-          class="event-poster"
-          src="../static/images/events/codec.jpg"
-        />
+        <img class="event-poster" src="../static/images/events/codec.jpg" />
         <img
           class="event-poster"
           src="../static/images/events/codeItBlind.jpg"
         />
-        <img
-          class="event-poster"
-          src="../static/images/events/dcrypt.jpeg"
-        />
+        <img class="event-poster" src="../static/images/events/dcrypt.jpeg" />
       </div>
       <div class="column">
-        <img
-          class="event-poster"
-          src="../static/images/events/githeat.jpg"
-        />
+        <img class="event-poster" src="../static/images/events/githeat.jpg" />
         <img
           class="event-poster"
           src="../static/images/events/google_it_out.jpg"
         />
-        <img
-          class="event-poster"
-          src="../static/images/events/techdesk.jpg"
-        />
+        <img class="event-poster" src="../static/images/events/techdesk.jpg" />
       </div>
       <div class="column">
         <img
@@ -56,7 +43,7 @@
         />
         <img
           class="event-poster"
-          src= "../static/images/events/blitzkreig.jpg"
+          src="../static/images/events/blitzkreig.jpg"
         />
       </div>
     </div>
@@ -65,7 +52,6 @@
 </template>
 
 <script>
-import blitz from "/static/images/events/blitzkreig.jpg"
 export default {};
 </script>
 
