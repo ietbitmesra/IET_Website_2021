@@ -6,7 +6,7 @@
         src="https://images.unsplash.com/photo-1630538456232-5a62fa7605d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
         alt="Avatar"
       />
-      <div class="socials-overlay">
+      <div v-if="hasSocials" class="socials-overlay">
         <div class="icon icon1">
           <svg
             width="16"
@@ -83,7 +83,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    hasSocials: {
+      type: Boolean,
+      default: true,
+    },
+  },
+};
 </script>
 
 <style scoped>

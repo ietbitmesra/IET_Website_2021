@@ -3,8 +3,8 @@
     <h1 class="primary-heading">Team</h1>
     <h3 class="sub-heading">Governing Faculty</h3>
     <div class="faculty-members">
-      <TeamMemberCard />
-      <TeamMemberCard />
+      <TeamMemberCard :hasSocials="false" />
+      <TeamMemberCard :hasSocials="false" />
     </div>
     <h3 class="sub-heading">Executive Members</h3>
     <div class="team-members">
