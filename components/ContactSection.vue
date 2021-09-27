@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-section">
+  <div class="contact-section" id="contact">
     <div class="socials">
       <h1 class="primary-heading">Contact Us</h1>
       <p class="secondary-heading">Feel free to reach out to us.</p>

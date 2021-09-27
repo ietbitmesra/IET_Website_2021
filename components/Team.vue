@@ -1,5 +1,5 @@
 <template>
-  <div class="team">
+  <div class="team" id="team">
     <h1 class="primary-heading">Team</h1>
     <h3 class="sub-heading">Governing Faculty</h3>
     <div class="faculty-members">

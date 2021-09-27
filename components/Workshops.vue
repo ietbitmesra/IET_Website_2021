@@ -1,5 +1,5 @@
 <template>
-  <div class="workshops">
+  <div class="workshops" id="workshops">
     <h1 class="workshop-heading primary-heading">Workshops</h1>
     <div class="all-workshops">
       <div class="col-1">

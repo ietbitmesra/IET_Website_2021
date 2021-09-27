@@ -1,6 +1,5 @@
 <template>
-  <div class="about-section">
-    <h1 class="primary-heading">About Us</h1>
+  <div class="about-section" id="about">
     <WhatIsIET />
     <WhatWeDo />
   </div>

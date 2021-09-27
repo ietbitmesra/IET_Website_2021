@@ -1,5 +1,5 @@
 <template>
-  <div class="events-section">
+  <div class="events-section" id="events">
     <h1 class="events-heading primary-heading">Events</h1>
     <div class="events-gallery">
       <div class="column">

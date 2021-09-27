@@ -1,5 +1,5 @@
 <template>
-  <div class="gallery">
+  <div class="gallery" id="gallery">
     <h1 class="primary-heading">Gallery</h1>
     <div class="carousel" :id="id">
       <img
