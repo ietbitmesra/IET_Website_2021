@@ -5,57 +5,58 @@
       <div class="column">
         <img
           class="event-poster"
-          src="https://images.unsplash.com/photo-1531127999375-2c19c97f7819?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmVkJTIwYmxhY2slMjBjaXR5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          src= "../static/images/events/month_of_code.jpeg"
+
         />
         <img
           class="event-poster"
-          src="https://images.unsplash.com/photo-1491001224967-2c0ee18a7c42?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHJlZCUyMGJsYWNrJTIwY2l0eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-        />
+          src="../static/images/events/brainfookers.jpg"
+          />
         <img
           class="event-poster"
-          src="https://images.unsplash.com/photo-1494894324626-f9727ea724ec?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHJlZCUyMGJsYWNrJTIwY2l0eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-        />
-      </div>
-      <div class="column">
-        <img
-          class="event-poster"
-          src="https://images.unsplash.com/photo-1616242757089-edeb1774709a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fG55Y3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-        />
-        <img
-          class="event-poster"
-          src="https://images.unsplash.com/photo-1616832880334-b1004d9808da?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fG55Y3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-        />
-        <img
-          class="event-poster"
-          src="https://images.unsplash.com/photo-1542931287-023b922fa89b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8amFwYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          src="../static/images/events/captureTheFlag.jpg"
         />
       </div>
       <div class="column">
         <img
           class="event-poster"
-          src="https://images.unsplash.com/photo-1527068589345-b736a7de9cc2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHJlZCUyMGJsYWNrJTIwY2l0eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          src="../static/images/events/codec.jpg"
         />
         <img
           class="event-poster"
-          src="https://images.unsplash.com/photo-1491884662610-dfcd28f30cfb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGphcGFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          src="../static/images/events/codeItBlind.jpg"
         />
         <img
           class="event-poster"
-          src="https://images.unsplash.com/photo-1519121785383-3229633bb75b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bnljfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          src="../static/images/events/dcrypt.jpeg"
         />
       </div>
       <div class="column">
         <img
           class="event-poster"
-          src="https://images.unsplash.com/photo-1519121785383-3229633bb75b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bnljfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          src="../static/images/events/githeat.jpg"
         />
         <img
           class="event-poster"
-          src="https://images.unsplash.com/photo-1490761668535-35497054764d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGphcGFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          src="../static/images/events/google_it_out.jpg"
         />
         <img
           class="event-poster"
-          src="https://images.unsplash.com/photo-1546229656-1e0cbe59e1ed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fG55Y3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          src="../static/images/events/techdesk.jpg"
+        />
+      </div>
+      <div class="column">
+        <img
+          class="event-poster"
+          src="../static/images/events/ultimate_engineer.jpg"
+        />
+        <img
+          class="event-poster"
+          src="../static/images/events/walking_dead.jpg"
+        />
+        <img
+          class="event-poster"
+          src= "../static/images/events/blitzkreig.jpg"
         />
       </div>
     </div>
@@ -64,6 +65,7 @@
 </template>
 
 <script>
+import blitz from "/static/images/events/blitzkreig.jpg"
 export default {};
 </script>
 
