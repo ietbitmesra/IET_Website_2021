@@ -3,48 +3,24 @@
     <h1 class="events-heading primary-heading">Events</h1>
     <div class="events-gallery">
       <div class="column">
-        <img
-          class="event-poster"
-          src="../static/images/events/month_of_code.jpeg"
-        />
-        <img
-          class="event-poster"
-          src="../static/images/events/brainfookers.jpg"
-        />
-        <img
-          class="event-poster"
-          src="../static/images/events/captureTheFlag.jpg"
-        />
+        <img class="event-poster" src="~/assets/events/month_of_code.jpeg" />
+        <img class="event-poster" src="~/assets/events/brainfookers.jpg" />
+        <img class="event-poster" src="~/assets/events/captureTheFlag.jpg" />
       </div>
       <div class="column">
-        <img class="event-poster" src="../static/images/events/codec.jpg" />
-        <img
-          class="event-poster"
-          src="../static/images/events/codeItBlind.jpg"
-        />
-        <img class="event-poster" src="../static/images/events/dcrypt.jpeg" />
+        <img class="event-poster" src="~/assets/events/codec.jpg" />
+        <img class="event-poster" src="~/assets/events/codeItBlind.jpg" />
+        <img class="event-poster" src="~/assets/events/dcrypt.jpeg" />
       </div>
       <div class="column">
-        <img class="event-poster" src="../static/images/events/githeat.jpg" />
-        <img
-          class="event-poster"
-          src="../static/images/events/google_it_out.jpg"
-        />
-        <img class="event-poster" src="../static/images/events/techdesk.jpg" />
+        <img class="event-poster" src="~/assets/events/githeat.jpg" />
+        <img class="event-poster" src="~/assets/events/google_it_out.jpg" />
+        <img class="event-poster" src="~/assets/events/techdesk.jpg" />
       </div>
       <div class="column">
-        <img
-          class="event-poster"
-          src="../static/images/events/ultimate_engineer.jpg"
-        />
-        <img
-          class="event-poster"
-          src="../static/images/events/walking_dead.jpg"
-        />
-        <img
-          class="event-poster"
-          src="../static/images/events/blitzkreig.jpg"
-        />
+        <img class="event-poster" src="~/assets/events/ultimate_engineer.jpg" />
+        <img class="event-poster" src="~/assets/events/walking_dead.jpg" />
+        <img class="event-poster" src="~/assets/events/blitzkreig.jpg" />
       </div>
     </div>
     <HackABIT />
@@ -82,8 +58,6 @@ export default {};
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-}
-.event-poster {
 }
 @media screen and (max-width: 800px) {
   .column {
