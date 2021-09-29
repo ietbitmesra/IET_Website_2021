@@ -1,7 +1,6 @@
 <template>
   <svg
-    width="824"
-    height="416"
+    class="tiles-svg"
     viewBox="0 0 824 416"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -1000,4 +999,14 @@ export default {};
 </script>
 
 <style scoped>
+.tiles-svg {
+  height: 316px;
+  width: 624px;
+}
+@media only screen and (max-width: 1220px) {
+  .tiles-svg {
+    height: 250px;
+    width: 500px;
+  }
+}
 </style>

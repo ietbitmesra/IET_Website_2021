@@ -1,7 +1,6 @@
 <template>
   <svg
-    width="452"
-    height="327"
+    class="iet-svg"
     viewBox="0 0 452 327"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -372,4 +371,14 @@ export default {};
 </script>
 
 <style scoped>
+.iet-svg {
+  height: 250px;
+  width: 353px;
+}
+@media only screen and (max-width: 1220px) {
+  .iet-svg {
+    height: 200px;
+    width: 300px;
+  }
+}
 </style>
