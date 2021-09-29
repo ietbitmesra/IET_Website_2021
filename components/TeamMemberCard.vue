@@ -1,8 +1,10 @@
 <template>
   <div class="team-member-card">
     <div class="avatar-circle">
-      <img
-       v-for="image in images" :src="image.url" 
+    <img
+        class="avatar"
+        src="https://images.unsplash.com/photo-1630538456232-5a62fa7605d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+        alt="Avatar"
       />
       <div class="socials-overlay">
         <div class="icon icon1">
@@ -82,62 +84,12 @@
 
 <script>
 export default {
-data()
-{
-  return {
-  images:[
-  {url:require("../assets/team_2021/adityaRajChoudhary.jpg")},
-  {url:require("../assets/team_2021/aryanKhandelwal.jpg")},
-  {url:require("../assets/team_2021/ayushAcharya.jpg")},
-  {url:require("../assets/team_2021/dhrubKumar.jpg")},
-  {url:require("../assets/team_2021/gauravBhagchandani.jpg")},
-  {url:require("../assets/team_2021/kapilKungwani.jpg")},
-  {url:require("../assets/team_2021/kartikAgarwal.jpg")},
-  {url:require("../assets/team_2021/krishnaPratapSingh.jpg")},
-  {url:require("../assets/team_2021/lakshyaSrivastava.jpg")},
-  {url:require("../assets/team_2021/rahulHarlalka.jpg")},
-  {url:require("../assets/team_2021/rohan.jpg")},
-  {url:require("../assets/team_2021/satyamMishra.jpg")},
-  {url:require("../assets/team_2021/sayanMaiti.jpg")},
-  {url:require("../assets/team_2021/shaswatPandey.jpg")},
-  {url:require("../assets/team_2021/shubhamAgarwal.jpg")},
-  {url:require("../assets/team_2021/swapnilGhosh.jpg")},
-  {url:require("../assets/team_2021/swatiPriya.jpg")},
-  {url:require("../assets/team_2021/tanmaySinha.jpg")},
-  {url:require("../assets/team_2021/utkarshKumarSingh.jpg")},
-  {url:require("../assets/team_2021/vaibhavRajSingh.jpg")},
-  {url:require("../assets/team_2021/vatsalyaGoswami.jpg")},
-  {url:require("../assets/team_2021/vibhuBhatia.jpg")},
-  {url:require("../assets/team_2021/vivekPattanayak.jpg")},
-  {url:require("../assets/team_2020/abhayCharan.jpg")},
-  {url:require("../assets/team_2020/abhishekAryan.jpg")},
-  {url:require("../assets/team_2020/Amit.jpg")},
-  {url:require("../assets/team_2020/ankitGupta.jpeg")},
-  {url:require("../assets/team_2020/archit.jpg")},
-  {url:require("../assets/team_2020/aryanKhandelwal.jpg")},
-  {url:require("../assets/team_2020/atulyaArya.jpeg")},
-  {url:require("../assets/team_2020/ayushShah.jpeg")},
-  {url:require("../assets/team_2020/gyanKarn.jpg")},
-  {url:require("../assets/team_2020/jasbinderSinghLoomba.jpg")},
-  {url:require("../assets/team_2020/KrishnapratapSingh.jpg")},
-  {url:require("../assets/team_2020/kushalSrivastava.jpg")},
-  {url:require("../assets/team_2020/nehalSrivastava.jpg")},
-  {url:require("../assets/team_2020/RahulHarlalka.png")},
-  {url:require("../assets/team_2020/RashiGupta.jpg")},
-  {url:require("../assets/team_2020/rishavRaj.jpg")},
-  {url:require("../assets/team_2020/ritikeshRaj.jpg")},
-  {url:require("../assets/team_2020/rohanNishant.jpg")},
-  {url:require("../assets/team_2020/sajalShraddha.jpg")},
-  {url:require("../assets/team_2020/sakshamarora.jpg")},
-  {url:require("../assets/team_2020/Shubhangi.JPG")},
-  {url:require("../assets/team_2020/soumyajitBehera.jpeg")},
-  {url:require("../assets/team_2020/swapnilGhosh.jpeg")},
-   {url:require("../assets/team_2020/TanmaySinha.jpg")},
-  {url:require("../assets/team_2020/tanweerulHaque.jpeg")},
-   {url:require("../assets/team_2020/vaibhavRajSingh.jpg")}],
-   };
-   };
- 
+  props: {
+    hasSocials: {
+      type: Boolean,
+      default: true,
+    },
+  },
 };
 </script>
 
