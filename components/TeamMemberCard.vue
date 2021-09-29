@@ -121,6 +121,8 @@ export default {
   display: inline-block;
   margin: 1.2rem;
   text-align: center;
+  max-width: 160px;
+  vertical-align: top;
 }
 .avatar-circle {
   border: 2px solid #e2e2e2;
@@ -129,24 +131,24 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 150px;
-  width: 150px;
+  height: 140px;
+  width: 140px;
   position: relative;
 }
 .avatar {
   border-radius: 100%;
   object-fit: cover;
-  height: 145px;
-  width: 145px;
+  height: 135px;
+  width: 135px;
 }
 .member-name {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 500;
   margin: 1rem 0 0;
 }
 .position {
   color: #787878;
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin: 1px 0;
 }
 .socials-overlay {
@@ -182,19 +184,19 @@ export default {
   transform: scale(1.1, 1.1);
 }
 .icon1 {
-  top: 14px;
+  top: 12px;
   right: 27%;
 }
 .icon2 {
-  top: 42px;
+  top: 38px;
   right: 10%;
 }
 .icon3 {
-  bottom: 42px;
+  bottom: 38px;
   right: 10%;
 }
 .icon4 {
-  bottom: 14px;
+  bottom: 12px;
   right: 27%;
 }
 @media only screen and (max-width: 720px) {

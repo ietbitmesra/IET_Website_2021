@@ -51,7 +51,7 @@ export default {
 }
 .team-members {
   margin: 2rem 0;
-  max-height: 70vh;
+  max-height: 80vh;
   overflow-y: auto;
 }
 .team-members::-webkit-scrollbar {
