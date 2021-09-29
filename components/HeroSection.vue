@@ -56,28 +56,17 @@ export default {
 }
 @media only screen and (max-width: 1000px) {
   .hero-section {
-    flex-direction: column-reverse;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
   .icons-div {
-    margin: 4rem 0;
+    margin-bottom: 4rem;
   }
   .cta-div {
-    margin: 2rem 0;
+    margin-top: 2rem;
   }
   .contact-btn {
     margin-top: 1rem;
-  }
-}
-@media only screen and (max-width: 450px) {
-  .hero-section {
-    justify-content: flex-end;
-  }
-  .icons-div {
-    margin: 2rem 0 2.5rem;
-  }
-  .cta-div {
-    margin: 0;
   }
 }
 </style>

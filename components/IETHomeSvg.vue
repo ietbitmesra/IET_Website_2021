@@ -79,6 +79,7 @@
       <path
         d="M264 62H452V113H384V287H358H333V113H264V62Z"
         fill="url(#paint_4_linear)"
+        shape-rendering="crispEdges"
       />
     </g>
     <g filter="url(#filter_5_d)">
@@ -106,7 +107,7 @@
         <feComposite in2="hardAlpha" operator="out" />
         <feColorMatrix
           type="matrix"
-          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"
         />
         <feBlend
           mode="normal"
@@ -141,7 +142,7 @@
         <feComposite in2="hardAlpha" operator="out" />
         <feColorMatrix
           type="matrix"
-          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"
         />
         <feBlend
           mode="normal"
@@ -176,7 +177,7 @@
         <feComposite in2="hardAlpha" operator="out" />
         <feColorMatrix
           type="matrix"
-          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"
         />
         <feBlend
           mode="normal"
@@ -211,7 +212,7 @@
         <feComposite in2="hardAlpha" operator="out" />
         <feColorMatrix
           type="matrix"
-          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"
         />
         <feBlend
           mode="normal"
@@ -246,7 +247,7 @@
         <feComposite in2="hardAlpha" operator="out" />
         <feColorMatrix
           type="matrix"
-          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"
         />
         <feBlend
           mode="normal"
