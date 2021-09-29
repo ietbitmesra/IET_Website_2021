@@ -49,4 +49,35 @@ export default {
   margin-top: 2rem;
   min-width: 60%;
 }
+@media only screen and (max-width: 1220px) {
+  .hero-section {
+    padding: 0 1rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .hero-section {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+  .icons-div {
+    margin: 4rem 0;
+  }
+  .cta-div {
+    margin: 2rem 0;
+  }
+  .contact-btn {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .hero-section {
+    justify-content: flex-end;
+  }
+  .icons-div {
+    margin: 2rem 0 2.5rem;
+  }
+  .cta-div {
+    margin: 0;
+  }
+}
 </style>

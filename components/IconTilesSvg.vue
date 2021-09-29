@@ -1009,4 +1009,10 @@ export default {};
     width: 500px;
   }
 }
+@media only screen and (max-width: 720px) {
+  .tiles-svg {
+    height: 180px;
+    width: 300px;
+  }
+}
 </style>
