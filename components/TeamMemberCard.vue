@@ -1,10 +1,10 @@
 <template>
   <div class="team-member-card">
     <div class="avatar-circle">
-    <img
+      <img
         class="avatar"
-        src="https://images.unsplash.com/photo-1630538456232-5a62fa7605d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
-        alt="Avatar"
+        :src="memberImage"
+        :alt="memberDetails.name.charAt(0)"
       />
       <div v-if="hasSocials" class="socials-overlay">
         <div class="icon icon1">
@@ -77,17 +77,41 @@
         </div>
       </div>
     </div>
-    <h3 class="member-name">Team Member</h3>
-    <p class="position">Position</p>
+    <h3 class="member-name">{{ memberDetails.name }}</h3>
+    <p class="position">{{ memberDetails.position }}</p>
   </div>
 </template>
 
 <script>
 export default {
   props: {
+    memberDetails: {
+      type: Object,
+      default: function () {
+        return {
+          name: "",
+          position: "",
+          imagePath: "",
+          facebookLink: "",
+          linkedinLink: "",
+          githubLink: "",
+          instagramLink: "",
+          emailAddress: "",
+        };
+      },
+    },
     hasSocials: {
       type: Boolean,
       default: true,
+    },
+  },
+  computed: {
+    memberImage() {
+      if (!this.memberDetails.imagePath) {
+        return;
+      }
+      return "";
+      // return require(this.memberDetails.imagePath);
     },
   },
 };
