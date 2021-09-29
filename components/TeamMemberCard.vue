@@ -110,8 +110,7 @@ export default {
       if (!this.memberDetails.imagePath) {
         return;
       }
-      return "";
-      // return require(this.memberDetails.imagePath);
+      return require(`../assets/${this.memberDetails.imagePath}`);
     },
   },
 };

@@ -4,7 +4,7 @@ const team_2020 = {
         {
             name: "Gyan Prakash Karn",
             position: "President",
-            imagePath: "~/assets/team_2020/gyanKarn.jpg",
+            imagePath: "team_2020/gyanKarn.jpg",
             facebookLink: "https://www.facebook.com/karnsometimes/",
             linkedinLink: "https://www.linkedin.com/in/karngyan/",
             githubLink: "https://github.com/karngyan",
@@ -14,7 +14,7 @@ const team_2020 = {
         {
             name: "Abhishek Aryan",
             position: "Vice President",
-            imagePath: "~/assets/team_2020/abhishekAryan.jpg",
+            imagePath: "team_2020/abhishekAryan.jpg",
             facebookLink: "https://www.facebook.com/profile.php?id=100017581381618",
             linkedinLink: "https://www.linkedin.com/in/abhishek-aryan-98b104187",
             githubLink: "https://github.com/aryanAbhishek18",
@@ -24,7 +24,7 @@ const team_2020 = {
         {
             name: "Ankit Gupta",
             position: "Vice-President",
-            imagePath: "~/assets/team_2020/ankitGupta.jpeg",
+            imagePath: "team_2020/ankitGupta.jpeg",
             facebookLink: "https://www.facebook.com/Ankit275gupta/",
             linkedinLink: "https://www.linkedin.com/in/i-ankit25/",
             githubLink: "https://github.com/i-ankit25",
@@ -34,7 +34,7 @@ const team_2020 = {
         {
             name: "Jasbinder Singh Loomba",
             position: "Director",
-            imagePath: "~/assets/team_2020/jasbinderSinghLoomba.jpg",
+            imagePath: "team_2020/jasbinderSinghLoomba.jpg",
             facebookLink: "https://www.linkedin.com/in/jasbinder-singh-496a0b16b",
             linkedinLink: "https://www.linkedin.com/in/jasbinder-singh-496a0b16b",
             githubLink: "https://www.linkedin.com/in/jasbinder-singh-496a0b16b",
@@ -44,7 +44,7 @@ const team_2020 = {
         {
             name: "Archit Gupta",
             position: "Sr. Executive Member",
-            imagePath: "~/assets/team_2020/archit.jpg",
+            imagePath: "team_2020/archit.jpg",
             facebookLink: "https://www.facebook.com/archit.gupta.4077",
             linkedinLink: "https://www.linkedin.com/in/archit4077sh/",
             githubLink: "https://github.com/archit4077sh",
@@ -54,7 +54,7 @@ const team_2020 = {
         {
             name: "Amit Kumar Tiwary",
             position: "Sr. Executive Member",
-            imagePath: "~/assets/team_2020/Amit.jpg",
+            imagePath: "team_2020/Amit.jpg",
             facebookLink: "https://www.facebook.com/akt114",
             linkedinLink: "https://www.linkedin.com/in/akt114/",
             githubLink: "https://github.com/akt114",
@@ -64,7 +64,7 @@ const team_2020 = {
         {
             name: "Vaibhav Raj Singh",
             position: "General Secretary",
-            imagePath: "~/assets/team_2020/vaibhavRajSingh.jpg",
+            imagePath: "team_2020/vaibhavRajSingh.jpg",
             facebookLink: "https://www.facebook.com/vaibhavraj.singh.902",
             linkedinLink: "https://www.linkedin.com/in/vaibhavrajsingh2001",
             githubLink: "https://github.com/vaibhavrajsingh2001",
@@ -74,7 +74,7 @@ const team_2020 = {
         {
             name: "Rashi Gupta",
             position: "General Secretary",
-            imagePath: "~/assets/team_2020/RashiGupta.jpg",
+            imagePath: "team_2020/RashiGupta.jpg",
             facebookLink: "https://www.facebook.com/rashi.gupta.58/",
             linkedinLink: "https://www.linkedin.com/in/rashi-gupta-92505b193/",
             githubLink: "https://github.com/rashigupta37",
@@ -84,7 +84,7 @@ const team_2020 = {
         {
             name: "Swapnil Ghosh",
             position: "Joint Secretary",
-            imagePath: "~/assets/team_2020/swapnilGhosh.jpeg",
+            imagePath: "team_2020/swapnilGhosh.jpeg",
             facebookLink: "https://www.facebook.com/ghoshrow",
             linkedinLink: "https://linkedin.com/in/goshrow",
             githubLink: "https://github.com/GOSHROW",
@@ -94,7 +94,7 @@ const team_2020 = {
         {
             name: "Aryan Khandelwal",
             position: "Joint Secretary",
-            imagePath: "~/assets/team_2020/aryanKhandelwal.jpg",
+            imagePath: "team_2020/aryanKhandelwal.jpg",
             facebookLink: "https://www.facebook.com/profile.php?id=100005828342314",
             linkedinLink: "https://www.linkedin.com/in/aryan-khandelwal-467339178/",
             githubLink: "https://github.com/aryan29",
@@ -104,7 +104,7 @@ const team_2020 = {
         {
             name: "Nehal Srivastava",
             position: "Webmaster",
-            imagePath: "~/assets/team_2020/nehalSrivastava.jpg",
+            imagePath: "team_2020/nehalSrivastava.jpg",
             facebookLink: "https://www.facebook.com/nehal.shrivashtava/",
             linkedinLink: "https://www.linkedin.com/in/nehal13/",
             githubLink: "https://github.com/nehal-backspace",
@@ -114,7 +114,7 @@ const team_2020 = {
         {
             name: "Soumyajit Behera",
             position: "Web Master",
-            imagePath: "~/assets/team_2020/soumyajitBehera.jpeg",
+            imagePath: "team_2020/soumyajitBehera.jpeg",
             facebookLink: "https://www.facebook.com/soumyajit.behera.397",
             linkedinLink: "https://www.linkedin.com/in/soumyajit4419/",
             githubLink: "https://github.com/soumyajit4419",
@@ -124,7 +124,7 @@ const team_2020 = {
         {
             name: "Krishna Pratap Singh",
             position: "Treasurer",
-            imagePath: "~/assets/team_2020/KrishnapratapSingh.jpg",
+            imagePath: "team_2020/KrishnapratapSingh.jpg",
             facebookLink: "https://m.facebook.com/krishnapratap.singh.3557440",
             linkedinLink: "https://www.linkedin.com/in/krishna-pratap-singh-3a6423167",
             githubLink: "https://www.linkedin.com/in/krishna-pratap-singh-3a6423167",
@@ -134,7 +134,7 @@ const team_2020 = {
         {
             name: "Shubhangi",
             position: "Event Head",
-            imagePath: "~/assets/team_2020/Shubhangi.JPG",
+            imagePath: "team_2020/Shubhangi.JPG",
             facebookLink: "https://www.facebook.com/profile.php?id=100010710163805",
             linkedinLink: "https://www.linkedin.com/in/shubhangi-jha-05168a1b1",
             githubLink: "https://github.com/ShubhangiJha",
@@ -144,7 +144,7 @@ const team_2020 = {
         {
             name: "Sajal Shraddha",
             position: "Event Head",
-            imagePath: "~/assets/team_2020/sajalShraddha.jpg",
+            imagePath: "team_2020/sajalShraddha.jpg",
             facebookLink: "https://www.facebook.com/sajalshraddha318/",
             linkedinLink: "https://www.linkedin.com/in/sajal-shraddha-343b011b4/",
             githubLink: "https://github.com/CosmosGirlShraddha",
@@ -154,7 +154,7 @@ const team_2020 = {
         {
             name: "Saksham Arora",
             position: "Tech Lead",
-            imagePath: "~/assets/team_2020/sakshamarora.jpg",
+            imagePath: "team_2020/sakshamarora.jpg",
             facebookLink: "https://www.facebook.com/saksham.arora.5686322/",
             linkedinLink: "https://www.linkedin.com/in/saksham-arora-348487167/",
             githubLink: "https://github.com/saksham20189575",
@@ -164,7 +164,7 @@ const team_2020 = {
         {
             name: "Kushal Srivastava",
             position: "Tech Lead",
-            imagePath: "~/assets/team_2020/kushalSrivastava.jpg",
+            imagePath: "team_2020/kushalSrivastava.jpg",
             facebookLink: "https://www.facebook.com/kushal.srivastava.916",
             linkedinLink: "https://www.linkedin.com/in/kushrike/",
             githubLink: "https://github.com/kushrike",
@@ -174,7 +174,7 @@ const team_2020 = {
         {
             name: "Abhay Charan Patro",
             position: "Technical Lead",
-            imagePath: "~/assets/team_2020/abhayCharan.jpg",
+            imagePath: "team_2020/abhayCharan.jpg",
             facebookLink: "https://www.facebook.com/abhay.patro.37/",
             linkedinLink: "https://www.linkedin.com/in/abhay-patro-46b811153/",
             githubLink: "https://github.com/abhaypatro",
@@ -184,7 +184,7 @@ const team_2020 = {
         {
             name: "Rahul Harlalka",
             position: "Tech Lead",
-            imagePath: "~/assets/team_2020/RahulHarlalka.png",
+            imagePath: "team_2020/RahulHarlalka.png",
             facebookLink: "https://www.facebook.com/rahul.harlalka.90",
             linkedinLink: "https://www.linkedin.com/in/rahul-harlalka-956a04185/",
             githubLink: "https://github.com/rahulharlalka",
@@ -194,7 +194,7 @@ const team_2020 = {
         {
             name: "Tanmay Sinha",
             position: "Technical Lead",
-            imagePath: "~/assets/team_2020/TanmaySinha.jpg",
+            imagePath: "team_2020/TanmaySinha.jpg",
             facebookLink: "https://www.facebook.com/tanmaysinhaBIT/",
             linkedinLink: "https://www.linkedin.com/in/tanmay-sinha-bit/",
             githubLink: "https://github.com/tanmay-sinha",
@@ -204,7 +204,7 @@ const team_2020 = {
         {
             name: "Atulya Arya",
             position: "Public Relations Coordinator",
-            imagePath: "~/assets/team_2020/atulyaArya.jpeg",
+            imagePath: "team_2020/atulyaArya.jpeg",
             facebookLink: "https://m.facebook.com/atulya.arya.14",
             linkedinLink: "https://www.linkedin.com/in/atulya-arya-794280186",
             githubLink: "https://github.com/atulya06",
@@ -214,7 +214,7 @@ const team_2020 = {
         {
             name: "Ritikesh Raj",
             position: "Public Relations Coordinator",
-            imagePath: "~/assets/team_2020/ritikeshRaj.jpg",
+            imagePath: "team_2020/ritikeshRaj.jpg",
             facebookLink: "https://www.facebook.com/ritikesh.raj.rk.90",
             linkedinLink: "https://www.linkedin.com/in/ritikesh-raj-630369166",
             githubLink: "https://github.com/shadow-rogue",
@@ -224,7 +224,7 @@ const team_2020 = {
         {
             name: "Rohan Nishant",
             position: "Public Relations Coordinator",
-            imagePath: "~/assets/team_2020/rohanNishant.jpg",
+            imagePath: "team_2020/rohanNishant.jpg",
             facebookLink: "https://www.facebook.com/rohan.nishant.56",
             linkedinLink: "https://www.linkedin.com/in/rohan-nishant-2b05b7146/",
             githubLink: "https://github.com/rondon1947",
@@ -234,7 +234,7 @@ const team_2020 = {
         {
             name: "Ayush Shah",
             position: "Executive Body member",
-            imagePath: "~/assets/team_2020/ayushShah.jpeg",
+            imagePath: "team_2020/ayushShah.jpeg",
             facebookLink: "https://www.facebook.com/ayush.shah.98700098/",
             linkedinLink: "https://www.linkedin.com/in/ayushshah1234/",
             githubLink: "https://github.com/shahayush457",
@@ -244,7 +244,7 @@ const team_2020 = {
         {
             name: "Rishav Raj",
             position: "Executive Member",
-            imagePath: "~/assets/team_2020/rishavRaj.jpg",
+            imagePath: "team_2020/rishavRaj.jpg",
             facebookLink: "https://www.facebook.com/rishav.raj.737448/",
             linkedinLink: "https://www.linkedin.com/in/rishav-raj-1a5505198/",
             githubLink: "https://github.com/Rishav139",
@@ -254,7 +254,7 @@ const team_2020 = {
         {
             name: "Tanweerul Haque",
             position: "Executive Body Member",
-            imagePath: "~/assets/team_2020/tanweerulHaque.jpeg",
+            imagePath: "team_2020/tanweerulHaque.jpeg",
             facebookLink: "https://www.facebook.com/not.that.tanweer",
             linkedinLink: "https://www.linkedin.com/in/tanweerulhaque/",
             githubLink: "https://github.com/TanweerulHaque",
