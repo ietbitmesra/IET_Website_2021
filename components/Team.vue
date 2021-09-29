@@ -8,27 +8,11 @@
     </div>
     <h3 class="sub-heading">Executive Members</h3>
     <div class="team-members">
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
+      <TeamMemberCard
+        v-for="member in teamMembers"
+        :key="member.name"
+        :memberDetails="member"
+      />
     </div>
     <NuxtLink to="/previous-teams">
       <button class="btn secondary-btn">Previous Teams</button>
@@ -38,8 +22,14 @@
 
 <script>
 import TeamMemberCard from "~/components/TeamMemberCard.vue";
+import team_2021 from "~/assets/teamDetails/team_2021";
 
 export default {
+  data() {
+    return {
+      teamMembers: team_2021.members,
+    };
+  },
   components: {
     TeamMemberCard,
   },
