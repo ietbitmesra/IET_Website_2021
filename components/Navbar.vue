@@ -64,8 +64,8 @@ export default {
     toggleNav() {
       document.querySelector(".ul").classList.toggle("ul--hidden");
       document.querySelector(".menu").classList.toggle("menu--open");
-    }
-  }
+    },
+  },
 };
 </script>
 
