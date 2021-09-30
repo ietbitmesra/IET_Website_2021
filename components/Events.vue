@@ -130,21 +130,19 @@ export default {};
   box-sizing: border-box;
 }
 .column img {
-  margin-top: 8px;
   vertical-align: middle;
   width: 100%;
 }
 
 .event-card {
+  margin-top: 8px;
   position: relative;
   overflow: hidden;
-  border-radius: 5px;
 }
 
 .event-poster {
   cursor: pointer;
   transition: filter 0.6s;
-  border-radius: 5px;
 }
 .event-description {
   position: absolute;
@@ -158,7 +156,7 @@ export default {};
   color: #fff;
 }
 .event-card:hover .event-poster {
-  filter: blur(.75rem) brightness(70%);
+  filter: blur(0.75rem) brightness(70%);
 }
 .event-card:hover .event-description {
   opacity: 1;
