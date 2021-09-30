@@ -133,13 +133,11 @@ export default {};
   vertical-align: middle;
   width: 100%;
 }
-
 .event-card {
   margin-top: 8px;
   position: relative;
   overflow: hidden;
 }
-
 .event-poster {
   cursor: pointer;
   transition: filter 0.6s;
@@ -161,7 +159,6 @@ export default {};
 .event-card:hover .event-description {
   opacity: 1;
 }
-
 @media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
