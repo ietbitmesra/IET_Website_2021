@@ -28,6 +28,7 @@
 import TeamMemberCard from "~/components/TeamMemberCard.vue";
 
 export default {
+  layout: "secondary",
   components: {
     TeamMemberCard,
   },
