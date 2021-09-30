@@ -142,7 +142,7 @@ export default {
     right: 10px;
     background-color: #fbfbfb;
     width: 12rem;
-    box-shadow: 0 10px 10px #eaeaea;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   }
 
   .ul li:hover {
@@ -158,7 +158,7 @@ export default {
     display: flex;
     height: 3rem;
     width: 3rem;
-    background: #f2f2f2;
+    background: #f3f3f3;
     border-radius: 100vw;
     flex-direction: column;
     justify-content: center;
@@ -168,7 +168,7 @@ export default {
   .menu__line {
     width: 50%;
     height: 2px;
-    border-radius: 100vw;
+    border-radius: 10px;
     background-color: #656565;
     margin-block: 3px;
   }
