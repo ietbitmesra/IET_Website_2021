@@ -25,25 +25,25 @@
       </div>
       <ul class="ul ul--hidden">
         <li class="homelink">
-          <p datapage="home" class="links">Home</p>
+          <p class="links" @click="scrollToTop">Home</p>
         </li>
         <li>
-          <p datapage="skills" class="links">About</p>
+          <p class="links" @click="scrollToSection('about')">About</p>
         </li>
         <li>
-          <p datapage="projects" class="links">Workshops</p>
+          <p class="links" @click="scrollToSection('workshops')">Workshops</p>
         </li>
         <li>
-          <p datapage="projects" class="links">Events</p>
+          <p class="links" @click="scrollToSection('events')">Events</p>
         </li>
         <li>
-          <p datapage="projects" class="links">Gallery</p>
+          <p class="links" @click="scrollToSection('gallery')">Gallery</p>
         </li>
         <li>
-          <p datapage="projects" class="links">Team</p>
+          <p class="links" @click="scrollToSection('team')">Team</p>
         </li>
         <li>
-          <p datapage="contact" class="links">Contact</p>
+          <p class="links" @click="scrollToSection('contact')">Contact</p>
         </li>
       </ul>
 
@@ -59,8 +59,12 @@
 </template>
 
 <script>
+import { scrollToTop, scrollToSection } from "~/assets/methods";
+
 export default {
   methods: {
+    scrollToTop: () => scrollToTop(),
+    scrollToSection: (id) => scrollToSection(id),
     toggleNav() {
       document.querySelector(".ul").classList.toggle("ul--hidden");
       document.querySelector(".menu").classList.toggle("menu--open");
