@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'IET_Website_2021',
+    title: 'IET | BIT Mesra',
     htmlAttrs: {
       lang: 'en'
     },
