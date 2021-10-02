@@ -3,32 +3,40 @@
     <h1 class="primary-heading">Previous Teams</h1>
     <div class="team-members">
       <p class="year">2020 - 2021</p>
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
+      <TeamMemberCard 
+       v-for="member_2021 in teamMembers_2021"
+      :key="member_2021.name"
+      :memberDetails="member_2021"
+      
+      />
+      
     </div>
     <div class="team-members">
       <p class="year">2019 - 2020</p>
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
-      <TeamMemberCard />
+      <TeamMemberCard 
+      v-for="member_2020 in teamMembers_2020"
+      :key="member_2020.name"
+      :memberDetails="member_2020"
+      
+      />
+    
     </div>
   </div>
 </template>
 
 <script>
 import TeamMemberCard from "~/components/TeamMemberCard.vue";
+import team_2021 from "~/assets/teamDetails/team_2021";
+import team_2020 from "~/assets/teamDetails/team_2020";
 
 export default {
   layout: "secondary",
+  data(){
+  return{
+  teamMembers_2021:team_2021.members,
+  teamMembers_2020:team_2020.members,
+  };
+  },
   components: {
     TeamMemberCard,
   },
