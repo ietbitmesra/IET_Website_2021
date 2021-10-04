@@ -3,7 +3,12 @@
     <div class="cta-div">
       <IETHomeSvg />
       <h2 class="tagline">Learn. Grow. Excel</h2>
-      <button class="btn primary-btn contact-btn">Contact</button>
+      <button
+        class="btn primary-btn contact-btn"
+        @click="scrollToSection('contact')"
+      >
+        Contact
+      </button>
     </div>
     <div class="icons-div">
       <IconTilesSvg />
@@ -14,11 +19,15 @@
 <script>
 import IETHomeSvg from "~/components/IETHomeSvg.vue";
 import IconTilesSvg from "~/components/IconTilesSvg.vue";
+import { scrollToSection } from "~/assets/methods";
 
 export default {
   components: {
     IETHomeSvg,
     IconTilesSvg,
+  },
+  methods: {
+    scrollToSection: (id) => scrollToSection(id),
   },
 };
 </script>
