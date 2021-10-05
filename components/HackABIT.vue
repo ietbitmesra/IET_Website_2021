@@ -23,6 +23,11 @@
     </div>
     <div class="poster">
       <img
+        class="hello-message"
+        src="~/assets/hackABit/margeret-hello.png"
+        alt="Hello"
+      />
+      <img
         class="event-poster"
         src="~/assets/hackABit/hackABIT.png"
         alt="Hack-A-BIT"
@@ -41,6 +46,20 @@ export default {};
   align-items: center;
   justify-content: space-between;
   min-height: 100vh;
+}
+.poster:hover .hello-message {
+  opacity: 1;
+}
+.poster {
+  position: relative;
+}
+.hello-message {
+  position: absolute;
+  bottom: 50%;
+  left: 22%;
+  opacity: 0;
+  width: 200px;
+  transition: all 0.3s ease;
 }
 .event-poster {
   width: 100%;
@@ -80,6 +99,9 @@ export default {};
     flex-direction: column;
     align-items: center;
     margin-right: 0;
+  }
+  .hello-message {
+    width: 150px;
   }
 }
 </style>
