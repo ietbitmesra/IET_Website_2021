@@ -38,6 +38,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   margin: 1.5rem auto;
   padding: 1rem 1.5rem 0.75rem;
   width: 260px;
