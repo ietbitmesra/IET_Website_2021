@@ -31,10 +31,10 @@
           <p class="links" @click="scrollToSection('about')">About</p>
         </li>
         <li>
-          <p class="links" @click="scrollToSection('workshops')">Workshops</p>
+          <p class="links" @click="scrollToSection('events')">Events</p>
         </li>
         <li>
-          <p class="links" @click="scrollToSection('events')">Events</p>
+          <p class="links" @click="scrollToSection('workshops')">Workshops</p>
         </li>
         <li>
           <p class="links" @click="scrollToSection('team')">Team</p>

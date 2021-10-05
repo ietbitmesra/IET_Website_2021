@@ -80,8 +80,6 @@
         </a>
       </div>
       <div class="developed-by-section">
-        Developed by IET Web Team
-        <br />
         <p class="developed-by">
           <a
             href="https://github.com/jash139"
@@ -90,6 +88,8 @@
           >
             Designed by Ayush Acharya (IET Webmaster)
           </a>
+          <br />
+          Developed by IET Web Team
         </p>
       </div>
     </div>
