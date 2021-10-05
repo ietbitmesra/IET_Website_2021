@@ -1,6 +1,7 @@
 <template>
   <div>
     <SecondaryNavbar />
+    <BackButton />
     <Nuxt />
     <SecondaryFooter />
   </div>
