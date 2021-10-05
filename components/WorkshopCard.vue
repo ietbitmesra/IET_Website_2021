@@ -61,6 +61,7 @@ export default {
 .workshop-details {
   max-height: 200px;
   overflow-y: auto;
+  text-align: justify;
 }
 .workshop-details::-webkit-scrollbar {
   width: 6px;
