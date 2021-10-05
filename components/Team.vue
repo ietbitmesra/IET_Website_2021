@@ -3,8 +3,12 @@
     <h1 class="primary-heading">Team</h1>
     <h3 class="sub-heading">Governing Faculty</h3>
     <div class="faculty-members">
-      <TeamMemberCard :hasSocials="false" />
-      <TeamMemberCard :hasSocials="false" />
+      <TeamMemberCard
+        v-for="member in facultyMembers"
+        :key="member.name"
+        :memberDetails="member"
+        :hasSocials="false"
+      />
     </div>
     <h3 class="sub-heading">Executive Members</h3>
     <div class="team-members">
@@ -22,12 +26,14 @@
 
 <script>
 import TeamMemberCard from "~/components/TeamMemberCard.vue";
+import facultyMembers from "~/assets/teamDetails/facultyMembers";
 import team_2021 from "~/assets/teamDetails/team_2021";
 
 export default {
   data() {
     return {
       teamMembers: team_2021.members,
+      facultyMembers,
     };
   },
   components: {
