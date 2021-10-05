@@ -96,6 +96,7 @@ export default {
 .team {
   margin: auto;
   max-width: 1200px;
+  padding-top: 10vh;
   text-align: center;
   -webkit-user-select: none;
   -khtml-user-select: none;

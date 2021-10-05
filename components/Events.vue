@@ -133,6 +133,7 @@ export default {};
 .events-section {
   margin: auto;
   max-width: 1200px;
+  padding-top: 10vh;
 }
 .events-heading {
   text-align: center;
