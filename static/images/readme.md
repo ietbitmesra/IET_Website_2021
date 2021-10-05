@@ -1,1 +1,0 @@
-# Add static images in this folder
