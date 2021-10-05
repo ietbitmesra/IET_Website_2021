@@ -1,23 +1,28 @@
 <template>
   <div class="workshop-card">
     <div class="workshop-icon">
-      <WorkshopIcons iconType="git" />
+      <WorkshopIcons :iconType="workshop.iconType" />
     </div>
-    <h4 class="workshop-heading">Workshop Heading</h4>
-    <p class="workshop-details">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tef mpor incididunt ut labore et dolore mags s na aliqua. Ut enim ad minim
-      veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elitelit, sed
-      do eiusmod tef mpor incididunt ut bore et dolore mags s na aliqua. Ut enim
-      ad minim veniam. Lorem, sed do eiusmod tef mpor incididunt ut labore et
-      dolore mags s na aliqua. Ut enim ad minim veniam.
-    </p>
+    <h4 class="workshop-heading">{{ workshop.name }}</h4>
+    <p class="workshop-details">{{ workshop.details }}</p>
   </div>
 </template>
 
 <script>
 import WorkshopIcons from "~/components/WorkshopIcons.vue";
 export default {
+  props: {
+    workshop: {
+      type: Object,
+      default: function () {
+        return {
+          name: "",
+          details: "",
+          iconType: "",
+        };
+      },
+    },
+  },
   components: {
     WorkshopIcons,
   },
@@ -33,7 +38,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1.5rem;
+  margin: 1.5rem auto;
   padding: 1rem 1.5rem 0.75rem;
   width: 260px;
 }

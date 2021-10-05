@@ -1,8 +1,8 @@
 <template>
   <svg
     v-if="iconType == 'web-dev'"
-    width="80"
-    height="51"
+    width="70"
+    height="55"
     viewBox="0 0 80 51"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -34,8 +34,8 @@
   </svg>
   <svg
     v-else-if="iconType == 'git'"
-    width="52"
-    height="58"
+    width="45"
+    height="55"
     viewBox="0 0 52 58"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -65,11 +65,10 @@
       fill="white"
     />
   </svg>
-
   <svg
     v-else-if="iconType == 'python'"
-    width="59"
-    height="59"
+    width="50"
+    height="55"
     viewBox="0 0 59 59"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +81,7 @@
   <svg
     v-else-if="iconType == 'linux'"
     width="55"
-    height="64"
+    height="55"
     viewBox="0 0 55 64"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -93,9 +92,9 @@
     />
   </svg>
   <svg
-    v-else-if="iconType == 'c'"
-    width="116"
-    height="38"
+    v-else-if="iconType == 'c/c++'"
+    width="85"
+    height="55"
     viewBox="0 0 116 38"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -123,8 +122,8 @@
   </svg>
   <svg
     v-else-if="iconType == 'dsa'"
-    width="78"
-    height="78"
+    width="55"
+    height="55"
     viewBox="0 0 78 78"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

@@ -1,96 +1,54 @@
 <template>
   <div class="workshops" id="workshops">
     <h1 class="workshop-heading primary-heading">Workshops</h1>
-    <div class="all-workshops">
-      <div class="col-1">
-        <h3 class="name">Linux Workshop</h3>
-        <p class="details">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tef mpor incididunt ut labore et dolore mags s na aliqua. Ut
-          enim ad minim veniam
-        </p>
-        <h3 class="name">Web Development Workshop</h3>
-        <p class="details">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tef mpor incididunt ut labore et dolore mags s na aliqua. Ut
-          enim ad minim veniam
-        </p>
-        <h3 class="name">Python Workshop</h3>
-        <p class="details">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tef mpor incididunt ut labore et dolore mags s na aliqua. Ut
-          enim ad minim veniam
-        </p>
-      </div>
-      <div class="col-2">
-        <h3 class="name">Git Workshop</h3>
-        <p class="details">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tef mpor incididunt ut labore et dolore mags s na aliqua. Ut
-          enim ad minim veniam
-        </p>
-        <h3 class="name">DSA Workshop</h3>
-        <p class="details">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tef mpor incididunt ut labore et dolore mags s na aliqua. Ut
-          enim ad minim veniam
-        </p>
-      </div>
+    <div class="workshop-content">
+      <WorkshopCard
+        v-for="workshop in workshopDetails"
+        :key="workshop.name"
+        :workshop="workshop"
+      />
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import workshopDetails from "~/assets/workshopDetails";
+import WorkshopCard from "./WorkshopCard.vue";
+
+export default {
+  data() {
+    return {
+      workshopDetails,
+    };
+  },
+  components: {
+    WorkshopCard,
+  },
+};
 </script>
 
 <style scoped>
 .workshops {
   margin: auto;
   max-width: 1200px;
-  padding: 10rem 0 5rem;
-  display: flex;
-  justify-content: space-between;
+  padding: 5rem 1rem;
 }
 .workshop-heading {
-  flex: 0.6;
+  text-align: center;
 }
-.all-workshops {
-  flex: 1;
+.workshop-content {
+  margin-top: 2rem;
   display: grid;
-  grid-template-columns: auto auto;
-  gap: 4rem;
-}
-.name {
-  color: #8c0087;
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin-bottom: 0;
-}
-.details {
-  color: #656565;
-  font-size: 0.9rem;
-  font-weight: 400;
-  margin-bottom: 3rem;
-  text-align: justify;
+  grid-template-columns: auto auto auto;
 }
 @media only screen and (max-width: 1220px) {
-  .workshops {
-    padding: 3rem 1rem;
-  }
-}
-@media only screen and (max-width: 1000px) {
-  .workshop-heading {
-    text-align: center;
-  }
-  .workshops {
-    flex-direction: column;
+  .workshop-content {
+    grid-template-columns: auto auto;
   }
 }
 @media only screen and (max-width: 720px) {
-  .all-workshops {
+  .workshop-content {
     grid-template-columns: auto;
-    gap: 0;
   }
 }
 </style>
