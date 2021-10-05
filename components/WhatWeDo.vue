@@ -128,7 +128,7 @@ export default {};
 .feature-card {
   background-image: linear-gradient(135deg, #8198fc, #923ceb);
   box-shadow: 0 5px 15px rgba(146, 60, 235, 0.75);
-  border-radius: 10px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
