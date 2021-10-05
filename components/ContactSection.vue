@@ -120,12 +120,12 @@
     </div>
     <div class="message-div">
       <p class="label">Name</p>
-      <input class="input-field" type="text" />
+      <input class="input-field" type="text" v-model="senderName" />
       <p class="label">Email</p>
-      <input class="input-field" type="text" />
+      <input class="input-field" type="text" v-model="senderEmail" />
       <p class="label">Message</p>
-      <textarea rows="5" class="input-field" type="text" />
-      <button class="btn primary-btn">Submit</button>
+      <textarea rows="5" class="input-field" type="text" v-model="message" />
+      <button class="btn primary-btn" @click="sendMessageToHost">Submit</button>
     </div>
   </div>
 </template>
@@ -137,7 +137,37 @@ export default {
   data() {
     return {
       socialLinks: contactDetails,
+      senderName: "",
+      senderEmail: "",
+      message: "",
+      receiverEmail: "iet@bitmesra.ac.in",
     };
+  },
+  methods: {
+    validateMessageFields() {
+      if (
+        this.senderName === "" ||
+        this.senderEmail === "" ||
+        this.message === ""
+      ) {
+        return false;
+      } else {
+        return true;
+      }
+    },
+    resetFormContent() {
+      this.senderName = "";
+      this.senderEmail = "";
+      this.message = "";
+    },
+    sendMessageToHost() {
+      if (this.validateMessageFields) {
+        window.open(
+          `mailto:${this.receiverEmail}?subject=${this.senderName}&body=${this.message}`
+        );
+        this.resetFormContent();
+      }
+    },
   },
 };
 </script>
