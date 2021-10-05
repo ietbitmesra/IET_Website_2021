@@ -1,14 +1,7 @@
 <template>
   <div class="hack-a-bit-section">
-    <div class="poster">
-      <img
-        class="event-poster"
-        src="~/assets/hackABit/hackABIT.png"
-        alt="Hack-A-BIT"
-      />
-    </div>
     <div class="event-details">
-      <h1 class="primary-heading">Hack-A-BIT</h1>
+      <h1 class="hack-a-bit-heading primary-heading">Hack-A-BIT</h1>
       <p class="about-event">
         Hack-A-BIT has turned out to be one of the
         <b>Largest Student Organised Hackathons</b> in the country. The maiden
@@ -28,6 +21,13 @@
         <button class="btn secondary-btn">Hack-A-BIT Website</button>
       </a>
     </div>
+    <div class="poster">
+      <img
+        class="event-poster"
+        src="~/assets/hackABit/hackABIT.png"
+        alt="Hack-A-BIT"
+      />
+    </div>
   </div>
 </template>
 
@@ -42,17 +42,15 @@ export default {};
   justify-content: space-between;
   min-height: 100vh;
 }
-.poster {
-  flex: 1;
-  margin-right: 2rem;
-}
 .event-poster {
-  max-width: 530px;
   width: 100%;
 }
 .event-details {
-  flex: 1;
-  margin-left: 2rem;
+  max-width: 550px;
+  margin-right: 1.5rem;
+}
+.hack-a-bit-heading {
+  margin: 0;
 }
 .about-event {
   color: #656565;
@@ -65,20 +63,23 @@ export default {};
   .hack-a-bit-section {
     margin: 0 1rem;
   }
+  .event-poster {
+    max-width: 550px;
+  }
 }
 @media only screen and (max-width: 1080px) {
   .hack-a-bit-section {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
   }
   .poster {
-    flex: unset;
     margin: 2rem 0;
   }
   .event-details {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 0;
+    margin-right: 0;
   }
 }
 </style>
