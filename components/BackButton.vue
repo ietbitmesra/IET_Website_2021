@@ -35,6 +35,7 @@ export default {
   max-width: 1200px;
   margin: auto;
   padding-top: 2rem;
+  padding-left: 1rem;
 }
 .back-btn:hover {
   color: #050303;

@@ -43,7 +43,7 @@ export default {
 .previous-teams {
   margin: auto;
   max-width: 1200px;
-  padding: 3rem 0;
+  padding: 3rem 1rem;
   text-align: center;
 }
 .year {
