@@ -109,6 +109,7 @@ export default {
   font-weight: 500;
   margin-left: 1.5rem;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .menu {

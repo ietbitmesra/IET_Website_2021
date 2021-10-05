@@ -14,8 +14,7 @@ a {
 }
 
 .primary-heading {
-    color: #8C0087;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 500;
     margin: 1rem 0;
     text-transform: uppercase;
@@ -27,20 +26,22 @@ a {
     cursor: pointer;
     font-size: 0.8rem;
     font-weight: 600;
+    letter-spacing: 2px;
     outline: none;
     text-transform: uppercase;
 }
 
 .primary-btn {
-    background-color: #8C0087;
+    background-image: linear-gradient(135deg, #8198fc, #923ceb);
+    box-shadow: 0 5px 15px rgba(146, 60, 235, 0.75);
     color: #FFFFFF;
     padding: 15px 2rem;
 }
 
 .secondary-btn {
     background-color: transparent;
-    border: 2px solid #8C0087;
-    color: #8C0087;
+    border: 2px solid #923ceb;
+    color: #923ceb;
     padding: 13px 2rem;
 }
 

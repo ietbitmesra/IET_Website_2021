@@ -1,6 +1,6 @@
 <template>
   <div class="what-we-do">
-    <h2 class="sub-heading">What We Do</h2>
+    <h2 class="primary-heading">What We Do</h2>
     <p class="paragraph">
       Our progressive vision is materialized through the multi faceted and
       proliferated seminars and workshops, well spaced throughout the academic

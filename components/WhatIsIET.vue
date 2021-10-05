@@ -68,7 +68,6 @@ export default {};
   max-width: 350px;
 }
 .sub-heading {
-  color: #8c0087;
   font-size: 2rem;
   font-weight: 500;
   margin: 1rem 0;
