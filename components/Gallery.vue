@@ -1,6 +1,5 @@
 <template>
-  <div class="gallery" id="gallery">
-    <h1 class="primary-heading">Gallery</h1>
+  <div class="gallery">
     <div class="carousel" :id="id">
       <img
         class="image"
@@ -114,18 +113,18 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
   text-align: center;
+  margin-bottom: 10rem;
 }
 .carousel {
   display: flex;
   overflow-x: auto;
-  margin: 5rem 0 3rem;
+  margin: 2.5rem 0;
   max-width: 100%;
   scroll-behavior: smooth;
 }
@@ -135,7 +134,7 @@ export default {
 .image {
   object-fit: cover;
   height: 230px;
-  margin: 0.5rem;
+  margin: 0.25rem;
   width: 350px;
 }
 .scroll-btns {

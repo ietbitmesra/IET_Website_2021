@@ -58,6 +58,8 @@ export default {};
 .what-is-iet {
   display: flex;
   justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
 }
 .about-iet {
   max-width: 700px;

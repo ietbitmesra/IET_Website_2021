@@ -37,9 +37,6 @@
           <p class="links" @click="scrollToSection('events')">Events</p>
         </li>
         <li>
-          <p class="links" @click="scrollToSection('gallery')">Gallery</p>
-        </li>
-        <li>
           <p class="links" @click="scrollToSection('team')">Team</p>
         </li>
         <li>
