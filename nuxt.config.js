@@ -11,8 +11,13 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: 'Official website for IET On Campus, BIT Mesra' },
+      { name: 'format-detection', content: 'telephone=no' },
+      { name: 'keywords', content: 'IET, BIT Mesra, IET BIT Mesra, Clubs in BIT Mesra, Technical Clubs in BIRT Mesra' },
+      { property: 'og:description', content: 'Offical website for IET On Campus, BIT Mesra' },
+      { property: 'og:image', content: '/static/favicon.ico' },
+      { property: 'og:site_name', content: 'IET BIT Mesra' },
+      { property: 'og:url', content: 'https://iet.bitmesra.dev/' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -53,5 +58,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    splitChunks: {
+      layouts: true,
+      pages: true
+    }
   }
 }
