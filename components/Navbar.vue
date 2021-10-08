@@ -57,9 +57,9 @@ export default {
 
 <style scoped>
 .header {
-  background: transparent;
+  background: rgba(251, 251, 251, 0.6);
   border-bottom: 2px solid #ffffff;
-  backdrop-filter: blur(0.5rem);
+  backdrop-filter: blur(0.75rem);
   position: sticky;
   top: 0;
   z-index: 5;
