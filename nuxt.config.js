@@ -62,5 +62,11 @@ export default {
       layouts: true,
       pages: true
     }
+  },
+
+  loadingIndicator: {
+    name: 'chasing-dots',
+    color: '#8c0087',
+    background: '#FBFBFB'
   }
 }
