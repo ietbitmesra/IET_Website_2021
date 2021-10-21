@@ -1,6 +1,6 @@
 <h2 align="center">
     <a href="https://iet-bitmesra.netlify.app">
-        <img src="./static/favicon.ico" alt="IET Logo" width="60" height="60" />
+        <img src="./static/favicon.ico" alt="IET Logo" width="80" height="60" />
     </a>
     <br />
     <a href="https://iet-bitmesra.netlify.app">
