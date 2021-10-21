@@ -1,9 +1,27 @@
-# IET Website 2021
-IET Official Website 2021.
+<h2 align="center">
+    <a href="https://iet-bitmesra.netlify.app">
+        <img src="./static/favicon.ico" alt="IET Logo" width="60" height="60" />
+    </a>
+    <br />
+    <a href="https://iet-bitmesra.netlify.app">
+        iet-bitmesra.netlify.app
+    </a>
+</h2>
 
-* Website: [https://iet-bitmesra.netlify.app]
+IET On Campus, BIT Mesra Official Website
 
-## Build Setup
+# Table of contents
+
+* [Installation and Setup](#installation-and-setup)
+* [Adding New Team](#adding-new-team)
+* [Deployment](#deployment)
+* [Contributing](#contributing)
+
+## Installation and Setup
+
+* Fork the repository
+* Clone and create your branch
+* Open the project and run following commands for setup
 
 ```bash
 # install dependencies
@@ -11,35 +29,55 @@ $ npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
 ```
 
-### `assets`
+## Adding New Team
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+* Create a directory in `assets` with format `team_<year>` to add member images.
+* Create a `.js` file in `teamDetails` directory in `assets` with same name format as above and add the team details as:
 
-### `components`
+```jsx
+const team_<year> = {
+    year: "start - end",
+    members: [
+        ...,
+        {
+            name: "",
+            position: "",
+            imagePath: "team_<year>/abc.jpg",
+            facebookLink: "",
+            linkedinLink: "",
+            githubLink: "",
+            instagramLink: "",
+            emailAddress: ""
+        },
+        ...
+    ]
+};
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+export default team_<year>;
+```
 
-### `layouts`
+* Update `Team.vue` component with new team details.
+* Add the new team to `previous-teams` page as well.
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+Refer previous code for more details.
 
-### `pages`
+## Deployment
+Run build command with publish directory as `dist`.
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+```bash
+# build command
+npm run generate
+```
 
-### `static`
+## Contributing
+Follow below steps to contribute:
 
-This directory contains your static files. Each file inside this directory is mapped to `/`.
+* Fork the repository
+* Create your branch 
+* Commit changes
+* Push to the branch
+* Open a pull request
 
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
+Refer [Nuxt.js documentation](https://nuxtjs.org) for more details.

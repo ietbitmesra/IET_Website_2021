@@ -4,50 +4,26 @@
     <div class="events-gallery">
       <div class="column">
         <div class="event-card">
-          <img class="event-poster" src="~/assets/events/month_of_code.jpeg" />
-          <div class="event-description">-</div>
-        </div>
-        <div class="event-card">
-          <img class="event-poster" src="~/assets/events/brainfookers.jpg" />
+          <img class="event-poster" src="~/assets/events/monthOfCode.jpeg" />
           <div class="event-description">
-            This event is a perfect blend of coding and treasure Hunt.It forces
-            an individual to rack his/her minds as they try to unravel what the
-            code tries to hide by deciphering the programs spread across the
-            institute building.
+            IET BIT Mesra brings you the 'Month of Code' in the month of
+            October. Along with chances of showing your coding skills, you will
+            come across lots of brain teasers that will blow your mind off.
+            Events in the basket:
+            <br />
+            👉 Capture the flag<br />
+            👉 IET Dev-A-Thon<br />
+            👉 Code Golf<br />
+            along with cash prizes worth <b>25k</b>
           </div>
         </div>
         <div class="event-card">
           <img class="event-poster" src="~/assets/events/captureTheFlag.jpg" />
           <div class="event-description">
-            Do you think you can overcome the most baffling situations? Can you
-            work in a team to find the solution to any quagmire related to
-            information security? If your answers are yes, 'Capture The Flag' is
-            the event for you. Pantheon'18 brings to you a unique information
-            security competition. Gear up for a jeopardy style three-day online
-            event that will challenge your expertise in various fields. Form
-            your teams, perform the tasks and lead the way to glory.
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="event-card">
-          <img class="event-poster" src="~/assets/events/codec.jpg" />
-          <div class="event-description">
-            Codec is an event where people are challenged to break the seemingly
-            impossible codes and some more nerve wracking challenge. Besides
-            Teamwork it tests your skills of deciphering patters and connections
-            before anyone else.
-          </div>
-        </div>
-        <div class="event-card">
-          <img class="event-poster" src="~/assets/events/codeItBlind.jpg" />
-          <div class="event-description">
-            Do you think you have what it takes to be a proficient coder? Can
-            you write a simple program with the only catch being that you are
-            blind-folded? If you think you have what it takes to solve this
-            puzzle then you are welcome here! Come and be a part of this event
-            as you compete through three intriguing rounds to emerge as the
-            final winner!
+            Stuck reading Algorithms and submitting assignments? IET BIT Mesra
+            has got you covered with <b>"Capture the Flag"</b> to get you in on
+            some Cyberspace Brawls! Make your own team of 2-3 compatriots in a
+            race-against-time. <br />Get READY to Capture the World...
           </div>
         </div>
         <div class="event-card">
@@ -61,6 +37,30 @@
         </div>
       </div>
       <div class="column">
+        <div class="event-card">
+          <img class="event-poster" src="~/assets/events/bitsoc.jpg" />
+          <div class="event-description">
+            Finding it hard to keep yourself motivated? IET, BIT Mesra brings to
+            you BITSOC: BIT Summer Of Code, an intercollegiate coding event.
+            Worry not if you've just started your programming expedition, cause
+            the "Coding Pods" will help you get through various projects and
+            receive immense FOSS knowledge in a mentor-mentee conversation.
+            Learn by creating useful projects in an incentivizing environment
+            and get support through code reviews and community interaction.
+            Develop your skills daily and duly!
+          </div>
+        </div>
+        <div class="event-card">
+          <img class="event-poster" src="~/assets/events/codeItBlind.jpg" />
+          <div class="event-description">
+            Do you think you have what it takes to be a proficient coder? Can
+            you write a simple program with the only catch being that you are
+            blind-folded? If you think you have what it takes to solve this
+            puzzle then you are welcome here! Come and be a part of this event
+            as you compete through three intriguing rounds to emerge as the
+            final winner!
+          </div>
+        </div>
         <div class="event-card">
           <img class="event-poster" src="~/assets/events/githeat.jpg" />
           <div class="event-description">
@@ -80,8 +80,21 @@
             right in !!!
           </div>
         </div>
+      </div>
+      <div class="column">
         <div class="event-card">
-          <img class="event-poster" src="~/assets/events/google_it_out.jpg" />
+          <img class="event-poster" src="~/assets/events/hackADuck.jpg" />
+          <div class="event-description">
+            IET BIT Mesra, in association with Psyberduck presents a one of its
+            kind hackathon named <b>"Hack-a-Duck"</b>. To all the techies, geeks
+            and nerds out there, buckle up, cause you have an amazing
+            opportunity to let your brainy skills do the talking. You also have
+            a golden chance to win cash prizes worth 5k and goodies for bonafide
+            performers that can be flaunted off in style!
+          </div>
+        </div>
+        <div class="event-card">
+          <img class="event-poster" src="~/assets/events/googleItOut.jpg" />
           <div class="event-description">
             This is one of the most exciting online events in the whole Bitotsav
             where people are judged on their googling sills with each team
@@ -105,19 +118,30 @@
       </div>
       <div class="column">
         <div class="event-card">
-          <img
-            class="event-poster"
-            src="~/assets/events/ultimate_engineer.jpg"
-          />
-          <div class="event-description">-</div>
+          <img class="event-poster" src="~/assets/events/codeGolf.png" />
+          <div class="event-description">
+            IET, BIT Mesra's brain teasing event, CodeGolf, is an individual
+            event. Buckle up to perform some serious optimization and win
+            exciting prizes worth <b>5k!</b>
+          </div>
         </div>
         <div class="event-card">
-          <img class="event-poster" src="~/assets/events/walking_dead.jpg" />
-          <div class="event-description">-</div>
+          <img class="event-poster" src="~/assets/events/codec.jpg" />
+          <div class="event-description">
+            Codec is an event where people are challenged to break the seemingly
+            impossible codes and some more nerve wracking challenge. Besides
+            Teamwork it tests your skills of deciphering patters and connections
+            before anyone else.
+          </div>
         </div>
         <div class="event-card">
-          <img class="event-poster" src="~/assets/events/blitzkreig.jpg" />
-          <div class="event-description">-</div>
+          <img class="event-poster" src="~/assets/events/brainfookers.jpg" />
+          <div class="event-description">
+            This event is a perfect blend of coding and treasure Hunt.It forces
+            an individual to rack his/her minds as they try to unravel what the
+            code tries to hide by deciphering the programs spread across the
+            institute building.
+          </div>
         </div>
       </div>
     </div>
