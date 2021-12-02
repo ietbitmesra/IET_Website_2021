@@ -2,7 +2,7 @@
   <div class="previous-teams">
     <h1 class="primary-heading">Previous Teams</h1>
     <div class="team-members">
-      <p class="year">2020 - 2021</p>
+      <p class="year">2021 - 2022</p>
       <TeamMemberCard
         v-for="member_2021 in teamMembers_2021"
         :key="member_2021.name"
@@ -10,7 +10,7 @@
       />
     </div>
     <div class="team-members">
-      <p class="year">2019 - 2020</p>
+      <p class="year">2020 - 2021</p>
       <TeamMemberCard
         v-for="member_2020 in teamMembers_2020"
         :key="member_2020.name"

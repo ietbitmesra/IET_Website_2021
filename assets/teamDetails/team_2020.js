@@ -1,5 +1,5 @@
 const team_2020 = {
-    year: "2019 - 2020",
+    year: "2020 - 2021",
     members: [
         {
             name: "Gyan Prakash Karn",
