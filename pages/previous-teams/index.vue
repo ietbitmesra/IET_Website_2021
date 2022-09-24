@@ -2,6 +2,10 @@
   <div class="previous-teams">
     <h1 class="primary-heading">Previous Teams</h1>
     <div class="team-members">
+      <p class="year">2022 - 2023</p>
+      <TeamMemberCard v-for="member_2022 in teamMembers_2022" :key="member_2022.name" :memberDetails="member_2022" />
+    </div>
+    <div class="team-members">
       <p class="year">2021 - 2022</p>
       <TeamMemberCard
         v-for="member_2021 in teamMembers_2021"
@@ -22,6 +26,7 @@
 
 <script>
 import TeamMemberCard from "~/components/TeamMemberCard.vue";
+import team_2022 from "~/assets/teamDetails/team_2022";
 import team_2021 from "~/assets/teamDetails/team_2021";
 import team_2020 from "~/assets/teamDetails/team_2020";
 
@@ -29,6 +34,7 @@ export default {
   layout: "secondary",
   data() {
     return {
+      teamMembers_2022: team_2022.members,
       teamMembers_2021: team_2021.members,
       teamMembers_2020: team_2020.members,
     };
