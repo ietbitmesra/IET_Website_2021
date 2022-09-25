@@ -41,7 +41,7 @@ const team_2022 = {
             instagramLink: "https://www.instagram.com/vivek__ig/",
             emailAddress: "pattanayak.vivek@gmail.com"
         },
-        
+
         {
             name: "Dhrub Kumar",
             position: "Director",
@@ -185,7 +185,7 @@ const team_2022 = {
         {
             name: "Sonu Deo",
             position: "Tech Lead",
-            imagePath: "team_2022/Sonudeo.jpg",
+            imagePath: "team_2022/SonuDeo.jpg",
             facebookLink: "",
             linkedinLink: "https://www.linkedin.com/in/sonu-deo-227b9a243/",
             githubLink: "https://github.com/plagiarism2012",
