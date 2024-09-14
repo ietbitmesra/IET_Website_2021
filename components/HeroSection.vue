@@ -42,6 +42,7 @@ export default {
   max-width: 1300px;
 }
 .cta-div {
+  padding-left: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;

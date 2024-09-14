@@ -64,12 +64,12 @@
 <script>
 import TeamMemberCard from "~/components/TeamMemberCard.vue";
 import facultyMembers from "~/assets/teamDetails/facultyMembers";
-import team_2022 from "~/assets/teamDetails/team_2022";
+import team_2024 from "~/assets/teamDetails/team_2024.js";
 
 export default {
   data() {
     return {
-      teamMembers: team_2022.members,
+      teamMembers: team_2024.members,
       facultyMembers,
     };
   },
