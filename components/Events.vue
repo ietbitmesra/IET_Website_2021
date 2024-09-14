@@ -38,16 +38,9 @@
       </div>
       <div class="column">
         <div class="event-card">
-          <img class="event-poster" src="~/assets/events/bitsoc.jpg" />
+          <img class="event-poster" src="~/assets/events/blindcoding.jpg" />
           <div class="event-description">
-            Finding it hard to keep yourself motivated? IET, BIT Mesra brings to
-            you BITSOC: BIT Summer Of Code, an intercollegiate coding event.
-            Worry not if you've just started your programming expedition, cause
-            the "Coding Pods" will help you get through various projects and
-            receive immense FOSS knowledge in a mentor-mentee conversation.
-            Learn by creating useful projects in an incentivizing environment
-            and get support through code reviews and community interaction.
-            Develop your skills daily and duly!
+            Blind coding is the ultimate test of a programmer's skill, where logic, speed, and precision are pushed to the limits. Without the ability to see or debug in real time, coders rely purely on their understanding of syntax and problem-solving prowess. It's a thrilling challenge that not only sharpens coding expertise but also builds confidence in thinking algorithmically under pressure. For those seeking to master their craft and truly elevate their abilities, blind coding is an exhilarating exercise that separates the great from the best. Ready to code without a safety net?
           </div>
         </div>
         <div class="event-card">
@@ -104,15 +97,9 @@
           </div>
         </div>
         <div class="event-card">
-          <img class="event-poster" src="~/assets/events/techdesk.jpg" />
+          <img class="event-poster" src="~/assets/events/bitguesser.jpg" />
           <div class="event-description">
-            Technology has revolutionized our way of living, impacting every
-            aspect of our lives. Thus, IET On Campus, BIT Mesra invites all the
-            tech enthusiast out there to bring out their inner techie or
-            developer to come up with articles and get a chance to get published
-            on our website !! It could be anything from a tutorial to a review.
-            Let’s see who plays the best with the words to bring out the best in
-            tech !!
+            IET Club Present   : "Bit Guesser: Coordinates Edition" challenges participants to decode pictures 📷  leading to  geographical coordinates 📍. In this fast-paced event, participants must unravel binary puzzles  to uncover clues that guide them to specific locations. With quick thinking 🤔 and sharp binary manipulation skills 🔥, contestants race against the clock 🕐 to pinpoint the mystery locations and claim victory. Join us for an exhilarating adventure  of code-breaking and geographical exploration!  🚀🚀🚀 
           </div>
         </div>
       </div>

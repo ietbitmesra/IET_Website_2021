@@ -2,10 +2,6 @@
   <div class="previous-teams">
     <h1 class="primary-heading">Previous Teams</h1>
     <div class="team-members">
-      <p class="year">2024 - 2025</p>
-      <TeamMemberCard v-for="member_2024 in teamMembers_2024" :key="member_2024.name" :memberDetails="member_2024" />
-    </div>
-    <div class="team-members">
       <p class="year">2022 - 2023</p>
       <TeamMemberCard v-for="member_2022 in teamMembers_2022" :key="member_2022.name" :memberDetails="member_2022" />
     </div>

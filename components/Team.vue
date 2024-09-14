@@ -64,7 +64,7 @@
 <script>
 import TeamMemberCard from "~/components/TeamMemberCard.vue";
 import facultyMembers from "~/assets/teamDetails/facultyMembers";
-import team_2024 from "~/assets/teamDetails/team_2024";
+import team_2024 from "~/assets/teamDetails/team_2024.js";
 
 export default {
   data() {
